@@ -1,0 +1,95 @@
+AlarmCode,Unit,Level,Description,Type
+1,0,1,001 [CIM]Glass ID Error,6
+2,0,1,"002 [CIM]Recipe Check-Recipe can not be used,Show GlassModify",6
+3,0,1,003 [CIM]Result is NG (when SampleGlassFlag=1)   ,6
+4,0,1,004 [CIM]Result data Save To Server Path ERROR,6
+5,0,1,005 [CIM]Result data Save To Local Path ERROR ,6
+6,0,1,006 [CIM]Result data Save To Daily Path ERROR,6
+11,0,1,011 [CIM]Load:   Robot interface T2 time out ,6
+12,0,1,012 [CIM]Load:   Robot interface T3 time out ,6
+13,0,1,013 [CIM]Load:   Robot interface T4 time out,6
+14,0,1,014 [CIM]Load:   Robot interface T6 time out ,6
+15,0,1,015 [CIM]UnLoad: Robot interface T2 time out   ,6
+16,0,1,016 [CIM]UnLoad: Robot interface T3 time out   ,6
+17,0,1,017 [CIM]UnLoad: Robot interface T4 time out    ,6
+18,0,1,018 [CIM]UnLoad: Robot interface T6 time out,6
+19,0,1,019 [CIM]Exchange:Robot interface T2 time out    ,6
+20,0,1,020 [CIM]Exchange:Robot interface T3 time out     ,6
+21,0,1,021 [CIM]Exchange:Robot interface T4 time out      ,6
+22,0,1,022 [CIM]Exchange:Robot interface T6 time out,6
+31,0,1,031 [CIM]Link Request T2 time out,6
+32,0,1,032 [CIM]EPPID Modify T1 time out,6
+33,0,1,033 [CIM]EPPID Modify T3 time out,6
+34,0,1,034 [CIM]EPPID Check T2 time out ,6
+35,0,1,035 [CIM]Glass Erase T1 time out ,6
+36,0,1,036 [CIM]Glass Erase T3 time out ,6
+37,0,1,037 [CIM]Transfer Reset T2 time out  ,6
+39,0,2,039 [CIM]Net H Break ,2
+41,0,1,041 [CIM]Glass over spec      ,6
+42,0,2,"042 [CIM]Glass Load/Unload/Exchange request illegal,STOP!",2
+43,0,2,"043 [CIM]Load Request,but glass exist",2
+44,0,2,044 [CIM]UnLoad request but glass not exist       ,2
+45,0,2,"045 [CIM]Load Complete,but glass not exist",2
+46,0,2,046 [CIM]UnLoad Complete but glass exist ,2
+47,0,1,"047 [CIM]Glass Exist,Unload or Remeasure",6
+49,0,2,"049 [CIM]Glass sheet exist,glass data lost,stop and then key in glass data",2
+50,0,2,"050 [CIM]Glass data exist,glass sheet lost",2
+100,0,1,100  ET5K Status Command time out     ,6
+101,0,2,101  ET5K STOP Command finish time out  ,2
+102,0,2,102  ET5K CEND Command finish time out  ,2
+103,0,2,103  ET5K INIT Command finish time out  ,2
+104,0,2,104  ET5K HOME Command finish time out  ,2
+105,0,2,105  ET5K LPLD Command finish time out  ,2
+106,0,2,106  ET5K LWLD Command finish time out  ,2
+107,0,2,107  ET5K GMOV Command finish time out  ,2
+108,0,2,108  ET5K AMOV Command finish time out  ,2
+109,0,2,109  ET5K ANAS Command finish time out  ,2
+110,0,2,110  ET5K BRPR Command finish time out  ,2
+150,0,2,150  ET5K Command STOP ack TimerOut time out     ,2
+151,0,2,151  ET5K Command CEND ack TimerOut time out     ,2
+152,0,2,152  ET5K Command INIT ack TimerOut time out     ,2
+153,0,2,153  ET5K Command HOME ack TimerOut time out     ,2
+154,0,2,154  ET5K Command LPLD ack TimerOut time out     ,2
+155,0,2,155  ET5K Command LWLD ack TimerOut time out     ,2
+156,0,2,156  ET5K Command GMOV ack TimerOut time out     ,2
+157,0,2,157  ET5K Command AMOV ack TimerOut time out     ,2
+158,0,2,158  ET5K Command ANAS ack TimerOut time out     ,2
+159,0,2,159  ET5K Command BRPR ack TimerOut time out     ,2
+160,0,2,160  ET5K Command MEAS ack TimerOut time out     ,2
+161,0,2,161  ET5K Command MODE ack TimerOut time out     ,2
+162,0,2,162  ET5K Command STWR ack TimerOut time out     ,2
+163,0,2,163  ET5K Command FLNM ack TimerOut time out     ,2
+164,0,2,164  ET5K Command GTRL ack TimerOut time out     ,2
+165,0,2,165  ET5K Command ALMN ack TimerOut time out     ,2
+166,0,2,166  ET5K Command ALAT ack TimerOut time out     ,2
+201,0,2,"201  ET5K command Ack erorr code 1:canot excute,in Moving(Please refer to ET5KLog)         ",2
+202,0,2,"202  ET5K command Ack erorr code 2:canot excute,not initialize(Please refer to ET5KLog)     ",2
+203,0,2,"203  ET5K command Ack erorr code 3:canot excute,moving direction limitation(Please refer to ET5KLog)     ",2
+204,0,2,"204  ET5K command Ack erorr code 4:canot excute,measure condition error(Please refer to ET5KLog)         ",2
+205,0,2,205  ET5K command Ack erorr code 5:now canot excute(Please refer to ET5KLog)   ,2
+208,0,2,208  ET5K command Ack erorr code 99:command illegal(Please refer to ET5KLog)   ,2
+209,0,2,209  ET5K command Ack erorr code ?:ack code no support (Please refer to ET5KLog)        ,2
+211,0,1,"211  ET5K command finished error code 1:canot finish,LK-C in busy(Please refer to ET5KLog)  ",6
+212,0,2,"212  ET5K command finished erorr code 2:canot finish,EQ side at stop condition(Please refer to ET5KLog)  ",2
+213,0,2,"213  ET5K command finished erorr code 3:canot finish,motot alarm(Please refer to ET5KLog)   ",2
+214,0,2,"214  ET5K command finished erorr code 4:canot finish,limit stop(Please refer to ET5KLog)    ",2
+215,0,2,"215  ET5K command finished erorr code 5:canot finish,other axis alarm cause(Please refer to ET5KLog)     ",2
+219,0,2,219  ET5K command finished erorr code ?:finished code no support(Please refer to ET5KLog)   ,2
+251,0,2,251  axis not initialize!(Please refer to ET5KLog)   ,2
+252,0,1,252  axis break in moving!(Please refer to ET5KLog)  ,6
+253,0,2,253  axis alarm!(Please refer to ET5KLog)        ,2
+261,0,2,261  EMO: Emergence stop!(Please refer to ET5KLog)   ,2
+262,0,1,262  EMO: Door Open!(Please refer to ET5KLog)    ,6
+271,0,1,271  Cylinder: abnormal(Please refer to ET5KLog) ,6
+300,0,1,300  Recipe Run(VRP=4):Over specification!       ,6
+301,0,1,301  Recipe Run(VRP=10?):Pause(Please refer to ET5KLog)       ,6
+302,0,1,302  Recipe Run(VRP=80?):Pause release(Please refer to ET5KLog)   ,6
+303,0,2,303  Recipe Run(VRP=90000~90004): abnormal ending!(Please refer to ET5KLog),2
+304,0,1,304  Recipe Run(VRP=?):unknow status!(Please refer to ET5KLog),6
+350,0,2,"350  Home command cannot execute,Pin not at down position!        ",2
+351,0,2,"351  Pin up command cannot execute,not at Home position!    ",2
+472,0,2,472  Cad File error!(Please refer to Action Log) ,2
+480,0,2,480  ET5K Ready signal =0  ,2
+481,0,2,481  ET5K EMO signal =0,1
+482,0,2,482  Maintenance DoorClose =0       ,2
+483,0,2,"483  ET5K not at Pin Down and Home position,please intialize for ET5K equipment side  ",2

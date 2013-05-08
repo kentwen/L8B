@@ -1,0 +1,406 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{763EF376-57A9-4468-95D2-EFF32C453031}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>L8Bmain.My.MyApplication</StartupObject>
+    <RootNamespace>L8Bmain</RootNamespace>
+    <AssemblyName>L8Bmain</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>L8Bmain.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>L8Bmain.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AUOL7BCVGUIOCX, Version=1.0.3830.40691, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\common\L8BIFPRJ\GUI\CV\AUOL7BCVGUIOCX\bin\Release\AUOL7BCVGUIOCX.dll</HintPath>
+    </Reference>
+    <Reference Include="AUOL7BDEQGUIOCX, Version=1.0.3830.40569, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\common\L8BIFPRJ\GUI\EQ\AUOL7BEQGUIOCX\AUOL7BDEQGUIOCX\bin\Release\AUOL7BDEQGUIOCX.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Nini, Version=1.1.0.0, Culture=neutral, PublicKeyToken=691faec150a7fa7b">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\common\L8BCCIM\Nini.dll</HintPath>
+    </Reference>
+    <Reference Include="PLC ReadWrite, Version=1.0.0.2, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\common\L8BIFPRJ\PLC ReadWrite\PLC ReadWrite\bin\Release\PLC ReadWrite.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.SQLite, Version=1.0.66.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="cRecipes.vb" />
+    <Compile Include="DialogAlarmInfo.Designer.vb">
+      <DependentUpon>DialogAlarmInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DialogAlarmInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogRecipeComfirmWithGlassSelection.designer.vb">
+      <DependentUpon>DialogRecipeComfirmWithGlassSelection.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DialogRecipeComfirmWithGlassSelection.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogRobotGlassInfo.Designer.vb">
+      <DependentUpon>DialogRobotGlassInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DialogRobotGlassInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogSECSMode.Designer.vb">
+      <DependentUpon>DialogSECSMode.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DialogSECSMode.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogRecipeManagement.Designer.vb">
+      <DependentUpon>DialogRecipeManagement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DialogRecipeManagement.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogHostMessageHistory.Designer.vb">
+      <DependentUpon>DialogHostMessageHistory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DialogHostMessageHistory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogMachineSetting.Designer.vb">
+      <DependentUpon>DialogMachineSetting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DialogMachineSetting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogRecipeComfirm.Designer.vb">
+      <DependentUpon>DialogRecipeComfirm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DialogRecipeComfirm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogCassetteInfoColumnSelection.Designer.vb">
+      <DependentUpon>DialogCassetteInfoColumnSelection.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DialogCassetteInfoColumnSelection.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogSystemParameter.Designer.vb">
+      <DependentUpon>DialogSystemParameter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DialogSystemParameter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogLinkStatus.Designer.vb">
+      <DependentUpon>DialogLinkStatus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DialogLinkStatus.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogEQGlassInfo.Designer.vb">
+      <DependentUpon>DialogEQGlassInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DialogEQGlassInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogMessage.Designer.vb">
+      <DependentUpon>DialogMessage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DialogMessage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogCassetteInfo.Designer.vb">
+      <DependentUpon>DialogCassetteInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DialogCassetteInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogBufferGlassInfo.Designer.vb">
+      <DependentUpon>DialogBufferGlassInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DialogBufferGlassInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogUserSetting.Designer.vb">
+      <DependentUpon>DialogUserSetting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DialogUserSetting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogRetypePassword.Designer.vb">
+      <DependentUpon>DialogRetypePassword.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DialogRetypePassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCassetteInfoText.Designer.vb">
+      <DependentUpon>FormCassetteInfoText.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormCassetteInfoText.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMaintenance.Designer.vb">
+      <DependentUpon>FormMaintenance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormMaintenance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.Designer.vb">
+      <DependentUpon>FormMain.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.vb">
+      <DependentUpon>LoginForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginFormChangePassword.Designer.vb">
+      <DependentUpon>LoginFormChangePassword.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LoginFormChangePassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuleDB.vb" />
+    <Compile Include="ModuleRobotMonitor.vb" />
+    <Compile Include="ModuleToolBox.vb" />
+    <Compile Include="ModuleAlarm.vb" />
+    <Compile Include="ModulePLC.vb" />
+    <Compile Include="ModuleCIM.vb" />
+    <Compile Include="ModuleMain.vb" />
+    <Compile Include="ModuleSetting.vb" />
+    <Compile Include="ModuleLog.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ucDate.Designer.vb">
+      <DependentUpon>ucDate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ucDate.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DialogAlarmInfo.resx">
+      <DependentUpon>DialogAlarmInfo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogRecipeComfirmWithGlassSelection.resx">
+      <DependentUpon>DialogRecipeComfirmWithGlassSelection.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogRobotGlassInfo.resx">
+      <DependentUpon>DialogRobotGlassInfo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogSECSMode.resx">
+      <DependentUpon>DialogSECSMode.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogRecipeManagement.resx">
+      <DependentUpon>DialogRecipeManagement.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogHostMessageHistory.resx">
+      <DependentUpon>DialogHostMessageHistory.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogMachineSetting.resx">
+      <DependentUpon>DialogMachineSetting.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogRecipeComfirm.resx">
+      <DependentUpon>DialogRecipeComfirm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogCassetteInfoColumnSelection.resx">
+      <DependentUpon>DialogCassetteInfoColumnSelection.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogSystemParameter.resx">
+      <DependentUpon>DialogSystemParameter.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogLinkStatus.resx">
+      <DependentUpon>DialogLinkStatus.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogEQGlassInfo.resx">
+      <DependentUpon>DialogEQGlassInfo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogMessage.resx">
+      <DependentUpon>DialogMessage.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogBufferGlassInfo.resx">
+      <DependentUpon>DialogBufferGlassInfo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogCassetteInfo.resx">
+      <DependentUpon>DialogCassetteInfo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogUserSetting.resx">
+      <DependentUpon>DialogUserSetting.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogRetypePassword.resx">
+      <DependentUpon>DialogRetypePassword.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCassetteInfoText.resx">
+      <DependentUpon>FormCassetteInfoText.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMaintenance.resx">
+      <DependentUpon>FormMaintenance.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginFormChangePassword.resx">
+      <DependentUpon>LoginFormChangePassword.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucDate.resx">
+      <DependentUpon>ucDate.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\common\clsNetGlobLog\NetGlobLog.vbproj">
+      <Project>{7645F4B9-DC7A-4440-9882-E7D38DF2C68C}</Project>
+      <Name>NetGlobLog</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\common\L8BCCIM\CCIM\prjCCIM\prjCCIM.vbproj">
+      <Project>{BB5064B6-E3E3-4537-ADCC-86D746900EC5}</Project>
+      <Name>prjCCIM</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\common\L8BCCIM\SECS\prjSECS\prjSECS.vbproj">
+      <Project>{D64A2C7D-9FC4-4157-B046-715F18784A78}</Project>
+      <Name>prjSECS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\common\L8BCCIM\SEMI\prjSEMI\prjSEMI.vbproj">
+      <Project>{2B4434F9-5D99-4A80-BEED-2254AA5B0DA2}</Project>
+      <Name>prjSEMI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\common\L8BIFPRJ\L8BIFPRJ\L8BIFPRJ.vbproj">
+      <Project>{8534F055-FFC1-4FD0-AABA-62EE497DA5B5}</Project>
+      <Name>L8BIFPRJ</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\common\RSTShapFlowGUI\RSTShapFlowGUI\RSTShapFlowGUI.vbproj">
+      <Project>{A6CCFEDB-1DBB-485F-863B-977EB05BD14B}</Project>
+      <Name>RSTShapFlowGUI</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AUO.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Error-48x48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info-48x48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\warning-48x48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\機台維修.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BufferSlot.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

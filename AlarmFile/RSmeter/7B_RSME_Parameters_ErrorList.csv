@@ -1,0 +1,150 @@
+AlarmCode,Unit,Level,Description,Type
+001,0,1,001 [CIM]Glass ID Error																				,6
+002,0,1,002 [CIM]Recipe Check-Recipe can not be used,Show GlassModify	,6
+003,0,1,003 [CIM]Result is NG (when SampleGlassFlag=1)									,6
+004,0,1,004 [CIM]Result data Save To Server Path ERROR    							,6
+005,0,1,005 [CIM]Result data Save To Local Path ERROR									,6
+006,0,1,006 [CIM]Result data Save To Daily Path ERROR									,6
+011,0,1,011 [CIM]Load:   Robot interface T2 time out										,6
+012,0,1,012 [CIM]Load:   Robot interface T3 time out										,6
+013,0,1,013 [CIM]Load:   Robot interface T4 time out										,6
+014,0,1,014 [CIM]Load:   Robot interface T6 time out										,6
+015,0,1,015 [CIM]UnLoad: Robot interface T2 time out										,6
+016,0,1,016 [CIM]UnLoad: Robot interface T3 time out										,6
+017,0,1,017 [CIM]UnLoad: Robot interface T4 time out										,6
+018,0,1,018 [CIM]UnLoad: Robot interface T6 time out										,6
+019,0,1,019 [CIM]Exchange:Robot interface T2 time out									,6
+020,0,1,020 [CIM]Exchange:Robot interface T3 time out									,6
+021,0,1,021 [CIM]Exchange:Robot interface T4 time out									,6
+022,0,1,022 [CIM]Exchange:Robot interface T6 time out									,6
+031,0,1,031 [CIM]Link Request T2 time out															,6
+032,0,1,032 [CIM]EPPID Modify T1 time out															,6
+033,0,1,033 [CIM]EPPID Modify T3 time out															,6
+034,0,1,034 [CIM]EPPID Check T2 time out																,6
+035,0,1,035 [CIM]Glass Erase T1 time out																,6
+036,0,1,036 [CIM]Glass Erase T3 time out																,6
+037,0,1,037 [CIM]Transfer Reset T2 time out														,6
+039,0,2,039 [CIM]Net H Break																						,2
+041,0,1,041 [CIM]Glass over spec                       								,6
+042,0,2,042 [CIM]Glass Load/Unload/Exchange request illegal,STOP!			,2
+043,0,2,043 [CIM]Load Request,but glass exist													,2
+044,0,2,044 [CIM]UnLoad request but glass not exist										,2
+045,0,2,045 [CIM]Load Complete,but glass not exist											,2
+046,0,2,046 [CIM]UnLoad Complete but glass exist												,2
+047,0,1,047 [CIM]Glass Exist,Unload or Remeasure												,6
+049,0,2,049 [CIM]Glass sheet exist,glass data lost											,2
+050,0,2,050 [CIM]Glass data exist,glass sheet lost											,2
+051,0,1,051 [CIM]Get EQ Recipe fail,Check the Path											,6
+052,0,1,052 [CIM]Get EQ Result Data fail,Check the Path								,6
+053,0,1,053 [CIM]Set EQ Measure Recipe Info fail												,6
+054,0,2,054 [CIM]Robot EMO occur																				,1
+101,0,2,101 [RSME]EMG.STOP                               							,1
+102,0,2,102 [RSME]X_PositionSensor Error                 							,2
+103,0,2,103 [RSME]Primary Air Down                       							,2
+104,0,2,104 [RSME]Primary Vacume Down                    							,2
+105,0,2,105 [RSME]Door Open Error                        							,2
+106,0,2,106 [RSME]XSEL(IAI)_Driver_Error                 							,2
+107,0,2,107 [RSME]XSEL(IAI)_Driver_Error                 							,2
+108,0,2,108 [RSME]XSEL(IAI)_Driver_Error                 							,2
+109,0,2,109 [RSME]RS232C Unit Communication Error        							,2
+110,0,2,110 [RSME]RS232C Unit Communication Error        							,2
+111,0,2,111 [RSME]RS232C Unit Communication Error        							,2
+116,0,2,116 [RSME]XSEL Origin Timeup Error               							,2
+117,0,2,117 [RSME]XSEL Move Timeup Error                 							,2
+120,0,2,120 [RSME]NC sensor flow down                    							,2
+121,0,2,121 [RSME]NC primary air down                    							,2
+122,0,2,122 [RSME]NC down speed over                     							,2
+140,0,2,140 [RSME]Stage Vacuum ON Timeup Error           							,2
+141,0,2,141 [RSME]Stage Vacuum OFF Timeup Error          							,2
+142,0,2,142 [RSME]Glass Centering Close Timeup Error     							,2
+143,0,2,143 [RSME]Glass Centering Open Timeup Error      							,2
+144,0,2,144 [RSME]Glass Centering Up Timeup Error        							,2
+145,0,2,145 [RSME]Glass Centering Down Timeup Error      							,2
+148,0,2,148 [RSME]Pin Up Timeup Error                    							,2
+149,0,2,149 [RSME]Pin Down Timeup Error                  							,2
+152,0,2,152 [RSME]4PP-Unit Up Timeup Error               							,2
+153,0,2,153 [RSME]4PP-Unit Down Timeup Error             							,2
+154,0,2,154 [RSME]4PP-Probe Up Timeup Error              							,2
+155,0,2,155 [RSME]4PP-Probe Down Timeup Error            							,2
+156,0,2,156 [RSME]NC-Probe Up Timeup Error               							,2
+157,0,2,157 [RSME]NC-Probe Down Timeup Error             							,2
+240,0,2,240 [RSME]Initial Interlock Error                							,2
+241,0,2,241 [RSME]Initial Interlock Error                							,2
+242,0,2,242 [RSME]Initial Interlock Error                							,2
+250,0,2,250 [RSME]Glass Centering Close Interlock Error  							,2
+251,0,2,251 [RSME]Glass Centering Close Interlock Error  							,2
+252,0,2,252 [RSME]Glass Centering Close Interlock Error  							,2
+253,0,2,253 [RSME]Glass Centering Close Interlock Error  							,2
+254,0,2,254 [RSME]Glass Centering Close Interlock Error  							,2
+255,0,2,255 [RSME]Glass Centering Close Interlock Error  							,2
+256,0,2,256 [RSME]Glass Centering Close Interlock Error  							,2
+260,0,2,260 [RSME]Glass Centering Up Interlock Error     							,2
+261,0,2,261 [RSME]Glass Centering Up Interlock Error     							,2
+262,0,2,262 [RSME]Glass Centering Up Interlock Error     							,2
+263,0,2,263 [RSME]Glass Centering Up Interlock Error     							,2
+264,0,2,264 [RSME]Glass Centering Up Interlock Error     							,2
+270,0,2,270 [RSME]Glass Centering Down Interlock Error   							,2
+271,0,2,271 [RSME]Glass Centering Down Interlock Error   							,2
+272,0,2,272 [RSME]Glass Centering Down Interlock Error   							,2
+273,0,2,273 [RSME]Glass Centering Down Interlock Error   							,2
+300,0,2,300 [RSME]Pin Up Interlock Error                 							,2
+301,0,2,301 [RSME]Pin Up Interlock Error                 							,2
+302,0,2,302 [RSME]Pin Up Interlock Error                 							,2
+303,0,2,303 [RSME]Pin Up Interlock Error                 							,2
+304,0,2,304 [RSME]Pin Up Interlock Error                 							,2
+305,0,2,305 [RSME]Pin Up Interlock Error                 							,2
+306,0,2,306 [RSME]Pin Up Interlock Error                 							,2
+307,0,2,307 [RSME]Pin Up Interlock Error                 							,2
+308,0,2,308 [RSME]Pin Up Interlock Error                 							,2
+309,0,2,309 [RSME]Pin Up Interlock Error                 							,2
+310,0,2,310 [RSME]Pin Down Interlock Error               							,2
+311,0,2,311 [RSME]Pin Down Interlock Error               							,2
+312,0,2,312 [RSME]Pin Down Interlock Error               							,2
+313,0,2,313 [RSME]Pin Down Interlock Error               							,2
+314,0,2,314 [RSME]Pin Down Interlock Error               							,2
+320,0,2,320 [RSME]Pin Down Interlock Error               							,2
+321,0,2,321 [RSME]Pin Down Interlock Error               							,2
+322,0,2,322 [RSME]Pin Down Interlock Error               							,2
+323,0,2,323 [RSME]Pin Down Interlock Error               							,2
+324,0,2,324 [RSME]Pin Down Interlock Error               							,2
+330,0,2,330 [RSME]4PP-Unit Down Interlock Error          							,2
+331,0,2,331 [RSME]4PP-Unit Down Interlock Error          							,2
+332,0,2,332 [RSME]4PP-Unit Down Interlock Error          							,2
+333,0,2,333 [RSME]4PP-Unit Down Interlock Error          							,2
+334,0,2,334 [RSME]4PP-Unit Down Interlock Error          							,2
+340,0,2,340 [RSME]NC-Proe Down Interlock Error           							,2
+341,0,2,341 [RSME]NC-Proe Down Interlock Error           							,2
+342,0,2,342 [RSME]NC-Proe Down Interlock Error           							,2
+343,0,2,343 [RSME]NC-Proe Down Interlock Error           							,2
+350,0,2,350 [RSME]4PP-Proe Down Interlock Error          							,2
+351,0,2,351 [RSME]4PP-Proe Down Interlock Error          							,2
+352,0,2,352 [RSME]4PP-Proe Down Interlock Error          							,2
+353,0,2,353 [RSME]4PP-Proe Down Interlock Error          							,2
+400,0,2,400 [RSME]XSEL Origin Interlock Error            							,2
+401,0,2,401 [RSME]XSEL Origin Interlock Error            							,2
+402,0,2,402 [RSME]XSEL Origin Interlock Error            							,2
+403,0,2,403 [RSME]XSEL Origin Interlock Error            							,2
+404,0,2,404 [RSME]XSEL Origin Interlock Error            							,2
+405,0,2,405 [RSME]XSEL Origin Interlock Error            							,2
+406,0,2,406 [RSME]XSEL Origin Interlock Error            							,2
+407,0,2,407 [RSME]XSEL Origin Interlock Error            							,2
+408,0,2,408 [RSME]XSEL Origin Interlock Error            							,2
+409,0,2,409 [RSME]XSEL Origin Interlock Error            							,2
+410,0,2,410 [RSME]XSEL Origin Interlock Error            							,2
+411,0,2,411 [RSME]XSEL Origin Interlock Error            							,2
+420,0,2,420 [RSME]XSEL Move Interlock Error              							,2
+421,0,2,421 [RSME]XSEL Move Interlock Error              							,2
+422,0,2,422 [RSME]XSEL Move Interlock Error              							,2
+423,0,2,423 [RSME]XSEL Move Interlock Error              							,2
+424,0,2,424 [RSME]XSEL Move Interlock Error              							,2
+425,0,2,425 [RSME]XSEL Move Interlock Error              							,2
+426,0,2,426 [RSME]XSEL Move Interlock Error              							,2
+427,0,2,427 [RSME]XSEL Move Interlock Error              							,2
+428,0,2,428 [RSME]XSEL Move Interlock Error              							,2
+429,0,2,429 [RSME]XSEL Move Interlock Error              							,2
+430,0,2,430 [RSME]XSEL Move Interlock Error              							,2
+431,0,2,431 [RSME]XSEL Move Interlock Error              							,2
+450,0,1,450 [RSME]ION1_LEVEL_WARNING                     							,6
+452,0,1,452 [RSME]ION1_ALM                               							,6
+453,0,1,453 [RSME]ION2_LEVEL_WARNING                     							,6
+455,0,1,455 [RSME]ION2_ALM                               							,6

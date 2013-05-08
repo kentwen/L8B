@@ -1,0 +1,513 @@
+Alarm Code,Unit,Level,Description ,Type,
+1,01,2,L6300 P1 EMO Push down,1,
+2,01,2,L6301 P1 EX BLF Driver Error,2,
+3,01,2,L6302 P1 EX Up up Limit,2,
+4,01,2,L6303 P1 EX Down Glass sensor Error,2,
+5,01,2,L6304 P1 EX Fork sensor Error,2,
+6,01,2,L6305 P1 EX CST not In Position,2,
+7,01,2,L6306 P1 EX Long distance sensor Error,2,
+8,01,2,L6307 P1 SPARE,2,
+9,01,2,L6308 P1 EX  Out of Position sensor error,2,
+10,01,2,L6309 P1 EX CST Clamp FWD timeout,2,
+11,01,2,L6310 P1 EX CST Clamp BWD timeout,2,
+12,01,2,L6311 P1 EX Floating Table Lock timeout,2,
+13,01,2,L6312 P1 EX Floating Table UnLock timeout,2,
+14,01,2,L6313 P1 EX STOPPER FWD timeout,2,
+15,01,2,L6314 P1 EX STOPPER BWD timeout,2,
+16,01,2,L6315 P1 EX CST sensor error,2
+17,01,2,L6316 P1 EX Glass & Data Mismatch,2
+18,01,2,L6317 P1 SPARE,2
+19,01,2,L6318 P1 SPARE,2
+20,01,2,L6319 P1 EX QD75-1  AXIS    ALARM,2
+21,01,2,L6320 P1 EX  QD75-1 Hardware stroke(+),2
+22,01,2,L6321 P1 EX  QD75-1 Hardware stroke(-),2
+23,01,2,L6322 P1 EX  QD75-1 AXIS OPR data erro,2
+24,01,2,L6323 P1 EX  QD75-1 AXIS Encoderror1,2
+25,01,2,L6324 P1 EX  QD75-1 AXIS Encoderror2,2
+26,01,2,L6325 P1 SPARE,2
+27,01,2,L6326 P1 EX J2S-B   ALARM,2
+28,01,2,L6327 P1 EX J2S-B   Encoder error,2
+29,01,2,L6328 P1 EX J2S-B   Encoder error,2
+30,01,2,L6329 P1-EX J2S-B   Absoluteposi los,2
+31,01,2,L6330 P1 EX J2S-B   Overspeed,2
+32,01,2,L6331 P1 EX J2S-B   Overcurrent,2
+33,01,2,L6332 P1 EX J2S-B   Servomotor heate,2
+34,01,2,L6333 P1 EX J2S-B   Overload1,2
+35,01,2,L6334 P1 EX J2S-B   Overload2,2
+36,01,2,L6335 P1 EX J2S-B   Error EXcessive,2
+37,01,2,L6336 P1-EX  Home Position Return error,2
+38,01,2,L6337 P1 EX SERVO   ALARM,2
+39,01,2,L6338 P1 EX SERVO ON Break not release,2
+40,01,2,L6339 P1 EX QD75 not execute move instruction,2
+41,01,2,L6340 P1 EX QD75 not execute stop instruction,2
+42,01,2,L6341 P1 EX QD75 execute move instruction timeout,2
+43,01,2,L6342 P1 EX synchronization sensor error,2
+44,01,2,L6343 P1 EX Servo no execute Home Position Return,2
+45,01,2,L6344 P1 EX Servo Moving Fork Sensor OFF,2
+46,01,2,L6345 P1 EX Servo Moving out of Position Sensor OFF,2
+47,01,2,L6346 P1 EX Up up Limit sensor OFF,2
+48,01,2,L6347 P1 EX Servo Moving Safety door open,2
+49,01,2,L6348 P1 EX Servo Moving CST Clamp open,2
+50,01,2,L6349 P1 EX Servo Moving Floating Table Unlock,2
+51,01,2,L6350 P1 EX Servo Moving Stopper FWD,2
+52,01,2,L6351 P1 EX Servo Moving Alignment FWD,2
+53,01,2,L6352 P1 EX Glass Loadind Sensor ON Servo Over Down,2
+54,01,2,L6353 P1 EX Safety door open,2
+55,01,2,L6354 P1 EX Count Position Bshift no Active,2
+56,01,2,L6355 P1 EX Level Position Error,2
+57,01,2,L6356 P1 EX current position Level Error,2
+58,01,2,L6357 P1 EX Loading Error,2
+59,01,2,L6358 P1 EX Unloading Error,2
+60,01,2,L6359 P1 SPARE,2
+61,01,2,L6360 P1 EX Servo Moving Maintance Alignment FWD,2
+62,01,2,L6361 P1 SPARE,2
+63,01,2,L6362 P1 SPARE,2
+64,01,2,L6363 P1 SPARE,2
+65,04,2,L6364 04 Y BLF Drive Error,2
+66,04,2,L6365 04-1Y BLF Drive Error,2
+67,04,2,L6366 ,2
+68,04,2,L6367 ,2
+69,04,2,L6368 ,2
+70,04,2,L6369 P1 VCR Alagnment FWD timeout,2
+71,04,2,L6370 P1 SPARE,2
+72,04,2,L6371 P1 CV   Stopper FWD timeout,2
+73,04,2,L6372 P1 CV   Stopper BWD timeout,2
+74,04,2,L6373 P1 CV   alignment  FWD timeout,2
+75,04,2,L6374 P1 CV   alignment BWD timeout,2
+76,04,2,L6375 P1 CV Glass & Data Mismatch,2
+77,04,2,L6376 P1 EX ->CV Move Timeout,2
+78,04,2,L6377 P1 CV-> EX Move Timeout,2
+79,04,2,L6378 P1  CV  VCR FWD timeout,2
+80,04,2,L6379 P1  CV  VCR BWD timeout,2
+81,01,1,L6380 P1 EX FFU1 Error(TOP),6
+82,01,1,L6381 P1 EX FFU2 Error(Down),6
+83,04,1,L6382 04 L-FFU Error(For Robot  BF),6
+84,01,1,L6383 P1 EX QD75-1  AXIS WARNING,6
+85,01,1,L6384 P1 01Y BLF Driver Overload protect,6
+86,01,1,L6385 P1 EX J2S-B   WARNINGS,6
+87,01,1,L6386 P1 EX J2S-B Openbattery Cable,6
+88,01,1,L6387 P1 EX J2S-B   Battery warning,6
+89,01,1,L6388 P1 EX J2S-B   Overloadwarning,6
+90,01,1,L6389 P1 EX J2S-B Absolute Position error,6
+91,01,1,L6390 P1 EX J2S-B   Main    circuit,6
+92,01,1,L6391 P1 EX J2S-B   SSCNET  error,6
+93,01,1,L6392  01Y Driver overload protect,6
+94,01,1,L6393 P1 EX SERVO   WARNINGS,6
+95,01,1,L6394 P1 EX Fork sensor OFF Servo Command Disable,6
+96,01,1,L6395 P1 EX  Out of position sensor OFF Servo Command Disable,6
+97,01,1,L6396 P1 EX Glass Loading sensor ON Servo Down Command Disable,6
+98,01,1,L6397 P1 EX CST Sensor ON and Clamp Open,6
+99,01,1,L6398 P1 EX CST Sensor ON and Floating Table Unlock,6
+100,01,1,L6399 P1 EX Stopper FWD Servo Down Command Disable,6
+101,01,1,L6400 P1 EX Alignment FWD Servo Down Command Disable,6
+102,01,1,L6401 P1 EX CST at 0 Level not execute Up Level,6
+103,01,1,L6402 P1 EX CST at Last Level not execute Down Level,6
+104,01,1,L6403 P1 EX Driver Moving  Servo Command Disable,6
+105,01,1,L6404 P1 EX Maintenance Alignment FWD Servo Command Disable,6
+106,01,1,L6405 P1 Wait Robot   Process Command,6
+107,01,1,L6406 P1 Process Command Check,6
+108,01,1,L6407 P1 EX GLS DataUnmatch(One Glass No Data),6
+109,01,1,L6408 P1 EX GLS DataUnmatch(One Data No Glass),6
+110,04,1,L6409 P1 CV   VCR ReadNG,6
+111,04,1,L6410 P1 CV   VCR DataUnmatch,6
+112,04,1,L6411 P1 CV   VCR Gls Data NotExist,6
+113,01,1,L6412 P1 Product Code Check Error,6
+114,01,1,L6413 P1 STK  T3 Timeout,6
+115,01,1,L6414 P1 STK  T6 Timeout,6
+116,01,1,L6415 P1 STK  T4 Timeout,6
+117,01,1,L6416 P1 Transfer Gls T0 Timeout,6
+118,01,1,L6417 P1 Transfer Gls T2 Timeout,6
+119,01,1,L6418 P1 Transfer Gls T3 Timeout,6
+120,01,1,L6419 P1 Transfer Gls T4 Timeout,6
+121,01,1,L6420 P1 Transfer Gls T6 Timeout,6
+122,01,1,L6421 P1 Transfer Gls T2 Timeout,6
+123,01,1,L6422 P1 Transfer Gls T3 Timeout,6
+124,01,1,L6423 P1 Transfer Gls T4 Timeout,6
+125,01,1,L6424 P1 Transfer Gls T6 Timeout,6
+126,01,1,L6425 P1 CST Load REQ T1 Timeout,6
+127,01,1,L6426 P1 CST Load REQ T3 Timeout,6
+128,01,1,L6427 P1 CST Load COMPT1 Timeout,6
+129,01,1,L6428 P1 CST Load COMPT3 Timeout,6
+130,04,1,L6429 04-1Y Driver Overload Protect,6
+131,01,1,L6430 P1 Gls  Flow OutT1 Timeout,6
+132,01,1,L6431 P1 Gls  Flow OutT3 Timeout,6
+133,01,1,L6432 P1 Gls  Flow In T1 Timeout,6
+134,01,1,L6433 P1 Gls  Flow In T3 Timeout,6
+135,01,1,L6434 P1 CST Present Report T1Timeout,6
+136,01,1,L6435 P1 CST Present Report T3Timeout,6
+137,01,1,L6436 P1 CST  Unload  REQ T1  Timeout,6
+138,01,1,L6437 P1 CST  Unload  REQ T3  Timeout,6
+139,01,1,L6438 P1 CST  Unload  REQ T1  Timeout,6
+140,01,1,L6439 P1 CST  Unload  REQ T3  Timeout,6
+141,01,1,L6440 P1 CST  Unload  COMP T1 Timeout,6
+142,01,1,L6441 P1 CST  Unload  COMP T3 Timeout,6
+143,01,1,L6442 P1 Port Change  REQ T2  Timeout,6
+144,01,1,L6443 SPARE,6
+145,01,1,L6444 P1 Port Pause   REQ T2  Timeout,6
+146,01,1,L6445 P1 Port Resume  REQ T2  Timeout,6
+147,01,1,L6446 P1 CST  Removed Report  T1 Timeo,6
+148,01,1,L6447 P1 CST  Removed Report  T3 Timeo,6
+149,01,1,L6448 P1 DummyCancel  REQ T2  Timeout,6
+150,01,1,L6449 P1 SPARE,6
+151,02,2,L6450 P2 EMO Push down,1
+152,02,2,L6451 P2 EX BLF Driver Error,2
+153,02,2,L6452 P2 EX Up up Limit,2
+154,02,2,L6453 P2 EX Down Glass sensor Error,2
+155,02,2,L6454P2 EX Fork sensor Error,2
+156,02,2,L6455 P2 EX CST not In Position,2
+157,02,2,L6456 P2 EX Long distance sensor Error,2
+158,02,2,L6457 P2 SPARE,2
+159,02,2,L6458P2 EX  Out of Position sensor error,2
+160,02,2,L6459 P2 EX CST Clamp FWD timeout,2
+161,02,2,L6460 P2 EX CST Clamp BWD timeout,2
+162,02,2,L6461 P2 EX Floating Table Lock timeout,2
+163,02,2,L6462P2 EX Floating Table UnLock timeout,2
+164,02,2,L6463 P2 EX STOPPER FWD timeout,2
+165,02,2,L6464 P2 EX STOPPER BWD timeout,2
+166,02,2,L6465P2 EX CST sensor error,2
+167,02,2,L6466 P2 EX Glass & Data Mismatch,2
+168,02,2,L6467 P2 SPARE,2
+169,02,2,L6468 P2 SPARE,2
+170,02,2,L6469 P2 EX QD75-1  AXIS    ALARM,2
+171,02,2,L6470 P2 EX  QD75-1 Hardware stroke(+),2
+172,02,2,L6471 P2 EX  QD75-1 Hardware stroke(-),2
+173,02,2,L6472P2 EX  QD75-1 AXIS OPR data erro,2
+174,02,2,L6473 P2 EX  QD75-1 AXIS Encoderror1,2
+175,02,2,L6474P2 EX  QD75-1 AXIS Encoderror2,2
+176,02,2,L6475 P2 SPARE,2
+177,02,2,L6476 P2 EX J2S-B   ALARM,2
+178,02,2,L6477 P2 EX J2S-B   Encoder error,2
+179,02,2,L6478 P2 EX J2S-B   Encoder error,2
+180,02,2,L6479 P2-EX J2S-B   Absoluteposi los,2
+181,02,2,L6480 P2 EX J2S-B   Overspeed,2
+182,02,2,L6481 P2 EX J2S-B   Overcurrent,2
+183,02,2,L6482 P2 EX J2S-B   Servomotor heate,2
+184,02,2,L6483 P2 EX J2S-B   Overload1,2
+185,02,2,L6484 P2 EX J2S-B   Overload2,2
+186,02,2,L6485 P2 EX J2S-B   Error EXcessive,2
+187,02,2,L6486 P2-EX  Home Position Return error,2
+188,02,2,L6487 P2 EX SERVO   ALARM,2
+189,02,2,L6488 P2 EX SERVO ON Break not release,2
+190,02,2,L6489P2 EX QD75 not execute move instruction,2
+191,02,2,L6490 P2 EX QD75 not execute stop instruction,2
+192,02,2,L6491 P2 EX QD75 execute move instruction timeout,2
+193,02,2,L6492 P2 EX synchronization sensor error,2
+194,02,2,L6493 P2 EX Servo no execute Home Position Return,2
+195,02,2,L6494P2 EX Servo Moving Fork Sensor OFF,2
+196,02,2,L6495 P2 EX Servo Moving out of Position Sensor OFF,2
+197,02,2,L6496 P2 EX Up up Limit sensor OFF,2
+198,02,2,L6497 P2 EX Servo Moving Safety door open,2
+199,02,2,L6498 P2 EX Servo Moving CST Clamp open,2
+200,02,2,L6499P2 EX Servo Moving Floating Table Unlock,2
+201,02,2,L6500 P2 EX Servo Moving Stopper FWD,2
+202,02,2,L6501 P2 EX Servo Moving Alignment FWD,2
+203,02,2,L6502 P2 EX Glass Loadind Sensor ON Servo Over Down,2
+204,02,2,L6503 P2 EX Safety door open,2
+205,02,2,L6504 P2 EX Count Position Bshift no Active,2
+206,02,2,L6505P2 EX Level Position Error,2
+207,02,2,L6506 P2 EX current position Level Error,2
+208,02,2,L6507P2 EX Loading Error,2
+209,02,2,L6508 P2 EX Unloading Error,2
+210,02,2,L6509 P2 SPARE,2
+211,02,2,L6510P2 EX Servo Moving Maintance Alignment FWD,2
+212,02,2,L6511 P2 SPARE,2
+213,02,2,L6512 P2 SPARE,2
+214,02,2,L6513 P2 SPARE,2
+215,05,2,L6514 05 Y BLF Drive Error,2
+216,05,2,L6515 05-1Y BLF Drive Error,2
+217,05,2,L6516,2
+218,05,2,L6517,2
+219,05,2,L6518,2
+220,05,2,L6519 P2 VCR Alagnment FWD timeout,2
+221,05,2,L6520 P2 SPARE,2
+222,05,2,L6521 P2 CV   Stopper FWD timeout,2
+223,05,2,L6522 P2 CV   Stopper BWD timeout,2
+224,05,2,L6523 P2 CV   alignment  FWD timeout,2
+225,05,2,L6524P2 CV   alignment BWD timeout,2
+226,05,2,L6525 P2 CV Glass & Data Mismatch,2
+227,05,2,L6526 P2 EX ->CV Move Timeout,2
+228,05,2,L6527 P2 CV-> EX Move Timeout,2
+229,05,2,L6528 P2  CV  VCR FWD timeout,2
+230,05,2,L6529 P2  CV  VCR BWD timeout,2
+231,02,1,L6530 P2 EX FFU1 Error(TOP),6
+232,02,1,L6531 P2 EX FFU2 Error(Down),6
+233,02,1,L6532 05 L-FFU Error(For Robot  BF),6
+234,02,1,L6533 P2 EX QD75-1  AXIS WARNING,6
+235,02,1,L6534 P2 01Y BLF Driver Overload protect,6
+236,02,1,L6535 P2 EX J2S-B   WARNINGS,6
+237,02,1,L6536 P2 EX J2S-B Openbattery Cable,6
+238,02,1,L6537 P2 EX J2S-B   Battery warning,6
+239,02,1,L6538 P2 EX J2S-B   Overloadwarning,6
+240,02,1,L6539 P2 EX J2S-B Absolute Position error,6
+241,02,1,L6540 P2 EX J2S-B   Main    circuit,6
+242,02,1,L6541 P2 EX J2S-B   SSCNET  error,6
+243,02,1,L6542 05Y Driver overload protect,6
+244,02,1,L6543 P2 EX SERVO   WARNINGS,6
+245,02,1,L6544 P2 EX Fork sensor OFF Servo Command Disable,6
+246,02,1,L6545 P2 EX  Out of position sensor OFF Servo Command Disable,6
+247,02,1,L6546 P2 EX Glass Loading sensor ON Servo Down Command Disable,6
+248,02,1,L6547 P2 EX CST Sensor ON and Clamp Open,6
+249,02,1,L6548 P2 EX CST Sensor ON and Floating Table Unlock,6
+250,02,1,L6549 P2 EX Stopper FWD Servo Down Command Disable,6
+251,02,1,L6550 P2 EX Alignment FWD Servo Down Command Disable,6
+252,02,1,L6551 P2 EX CST at 0 Level not execute Up Level,6
+253,02,1,L6552P2 EX CST at Last Level not execute Down Level,6
+254,02,1,L6553 P2 EX Driver Moving  Servo Command Disable,6
+255,02,1,L6554 P2 EX Maintenance Alignment FWD Servo Command Disable,6
+256,02,1,L6555 P2 Wait Robot   Process Command,6
+257,02,1,L6556 P2 Process Command Check,6
+258,02,1,L6557 P2 EX GLS DataUnmatch(One Glass No Data),6
+259,02,1,L6558 P2 EX GLS DataUnmatch(One Data No Glass),6
+260,05,1,L6559 P2 CV   VCR ReadNG,6
+261,05,1,L6560 P2 CV   VCR DataUnmatch,6
+262,05,1,L6561 P2 CV   VCR Gls Data NotExist,6
+263,02,1,L6562 P2 Product Code Check Error,6
+264,02,1,L6563 P2 STK  T3 Timeout,6
+265,02,1,L6564 P2 STK  T6 Timeout,6
+266,02,1,L6565 P2 STK  T4 Timeout,6
+267,02,1,L6566 P2 Transfer Gls T0 Timeout,6
+268,02,1,L6567 P2 Transfer Gls T2 Timeout,6
+269,02,1,L6568 P2 Transfer Gls T3 Timeout,6
+270,02,1,L6569 P2 Transfer Gls T4 Timeout,6
+271,02,1,L6570 P2 Transfer Gls T6 Timeout,6
+272,02,1,L6571 P2 Transfer Gls T2 Timeout,6
+273,02,1,L6572 P2 Transfer Gls T3 Timeout,6
+274,02,1,L6573 P2 Transfer Gls T4 Timeout,6
+275,02,1,L6574 P2 Transfer Gls T6 Timeout,6
+276,02,1,L6575 P2 CST Load REQ T1 Timeout,6
+277,02,1,L6576 P2 CST Load REQ T3 Timeout,6
+278,02,1,L6577 P2 CST Load COMPT1 Timeout,6
+279,02,1,L6578 P2 CST Load COMPT3 Timeout,6
+280,05,1,L6579 05-1Y Driver Overload Protect,6
+281,02,1,L6580 P2 Gls  Flow OutT1 Timeout,6
+282,02,1,L6581 P2 Gls  Flow OutT3 Timeout,6
+283,02,1,L6582 P2 Gls  Flow In T1 Timeout,6
+284,02,1,L6583 P2 Gls  Flow In T3 Timeout,6
+285,02,1,L6584 P2 CST Present Report T1Timeout,6
+286,02,1,L6585 P2 CST Present Report T3Timeout,6
+287,02,1,L6586 P2 CST  Unload  REQ T1  Timeout,6
+288,02,1,L6587 P2 CST  Unload  REQ T3  Timeout,6
+289,02,1,L6588 P2 CST  Unload  REQ T1  Timeout,6
+290,02,1,L6589 P2 CST  Unload  REQ T3  Timeout,6
+291,02,1,L6590 P2 CST  Unload  COMP T1 Timeout,6
+292,02,1,L6591 P2 CST  Unload  COMP T3 Timeout,6
+293,02,1,L6592 P2 Port Change  REQ T2  Timeout,6
+294,02,1,L6593,6
+295,02,1,L6594 P2 Port Pause   REQ T2  Timeout,6
+296,02,1,L6595 P2 Port Resume  REQ T2  Timeout,6
+297,02,1,L6596 P2 CST  Removed Report  T1 Timeo,6
+298,02,1,L6597 P2 CST  Removed Report  T3 Timeo,6
+299,02,1,L6598 P2 DummyCancel  REQ T2  Timeout,6
+300,02,1,L6599 P2 SPARE,6
+301,03,2,L6600 P3 EMO Push down,1
+302,03,2,L6601 P3 EX BLF Driver Error,2
+303,03,2,L6602 P3 EX Up up Limit,2
+304,03,2,L6603 P3 EX Down Glass sensor Error,2
+305,03,2,L6604 P3 EX Fork sensor Error,2
+306,03,2,L6605 P3 EX CST not In Position,2
+307,03,2,L6606 P3 EX Long distance sensor Error,2
+308,03,2,L6607 P3 SPARE,2
+309,03,2,L6608 P3 EX  Out of Position sensor error,2
+310,03,2,L6609 P3 EX CST Clamp FWD timeout,2
+311,03,2,L6610 P3 EX CST Clamp BWD timeout,2
+312,03,2,L6611 P3 EX Floating Table Lock timeout,2
+313,03,2,L6612 P3 EX Floating Table UnLock timeout,2
+314,03,2,L6613 P3 EX STOPPER FWD timeout,2
+315,03,2,L6614 P3 EX STOPPER BWD timeout,2
+316,03,2,L6615 P3 EX CST sensor error,2
+317,03,2,L6616 P3 EX Glass & Data Mismatch,2
+318,03,2,L6617 P3 SPARE,2
+319,03,2,L6618 P3 SPARE,2
+320,03,2,L6619 P3 EX QD75-1  AXIS    ALARM,2
+321,03,2,L6620 P3 EX  QD75-1 Hardware stroke(+),2
+322,03,2,L6621 P3 EX  QD75-1 Hardware stroke(-),2
+323,03,2,L6622 P3 EX  QD75-1 AXIS OPR data erro,2
+324,03,2,L6623 P3 EX  QD75-1 AXIS Encoderror1,2
+325,03,2,L6624 P3 EX  QD75-1 AXIS Encoderror2,2
+326,03,2,L6625 P3 SPARE,2
+327,03,2,L6626 P3 EX J2S-B   ALARM,2
+328,03,2,L6627 P3 EX J2S-B   Encoder error,2
+329,03,2,L6628 P3 EX J2S-B   Encoder error,2
+330,03,2,L6629 P3-EX J2S-B   Absoluteposi los,2
+331,03,2,L6630 P3 EX J2S-B   Overspeed,2
+332,03,2,L6631 P3 EX J2S-B   Overcurrent,2
+333,03,2,L6632 P3 EX J2S-B   Servomotor heate,2
+334,03,2,L6633 P3 EX J2S-B   Overload1,2
+335,03,2,L6634 P3 EX J2S-B   Overload2,2
+336,03,2,L6635 P3 EX J2S-B   Error EXcessive,2
+337,03,2,L6636 P3-EX  Home Position Return error,2
+338,03,2,L6637 P3 EX SERVO   ALARM,2
+339,03,2,L6638 P3 EX SERVO ON Break not release,2
+340,03,2,L6639 P3 EX QD75 not execute move instruction,2
+341,03,2,L6640 P3 EX QD75 not execute stop instruction,2
+342,03,2,L6641 P3 EX QD75 execute move instruction timeout,2
+343,03,2,L6642P3 EX synchronization sensor error,2
+344,03,2,L6643P3 EX Servo no execute Home Position Return,2
+345,03,2,L6644 P3 EX Servo Moving Fork Sensor OFF,2
+346,03,2,L6645 P3 EX Servo Moving out of Position Sensor OFF,2
+347,03,2,L6646 P3 EX Up up Limit sensor OFF,2
+348,03,2,L6647 P3 EX Servo Moving Safety door open,2
+349,03,2,L6648 P3 EX Servo Moving CST Clamp open,2
+350,03,2,L6649 P3 EX Servo Moving Floating Table Unlock,2
+351,03,2,L6650P3 EX Servo Moving Stopper FWD,2
+352,03,2,L6651 P3 EX Servo Moving Alignment FWD,2
+353,03,2,L6652 P3 EX Glass Loadind Sensor ON Servo Over Down,2
+354,03,2,L6653 P3 EX Safety door open,2
+355,03,2,L6654 P3 EX Count Position Bshift no Active,2
+356,03,2,L6655 P3 EX Level Position Error,2
+357,03,2,L6656P3 EX current position Level Error,2
+358,03,2,L6657 P3 EX Loading Error,2
+359,03,2,L6658 P3 EX Unloading Error,2
+360,03,2,L6659 P3 SPARE,2
+361,03,2,L6660 P3 EX Servo Moving Maintance Alignment FWD,2
+362,03,2,L6661 P3 SPARE,2
+363,03,2,L6662 P3 SPARE,2
+364,03,2,L6663 P3 SPARE,2
+365,06,2,L6664 06 Y BLF Drive Error,2
+366,06,2,L6665 06-1Y BLF Drive Error,2
+367,06,2,L6666 ,2
+368,06,2,L6667,2
+369,06,2,L6668,2
+370,06,2,L6669 P3 VCR Alagnment FWD timeout,2
+371,06,2,L6670 P3 SPARE,2
+372,06,2,L6671 P3 CV   Stopper FWD timeout,2
+373,06,2,L6672 P3 CV   Stopper BWD timeout,2
+374,06,2,L6673 P3 CV   alignment  FWD timeout,2
+375,06,2,L6674 P3 CV   alignment BWD timeout,2
+376,06,2,L6675 P3 CV Glass & Data Mismatch,2
+377,06,2,L6676 P3 EX ->CV Move Timeout,2
+378,06,2,L6677 P3 CV-> EX Move Timeout,2
+379,06,2,L6678 P3  CV  VCR FWD timeout,2
+380,06,2,L6679 P3  CV  VCR BWD timeout,2
+381,03,1,L6680 P3 EX FFU1 Error(TOP),6
+382,03,1,L6681 P3 EX FFU2 Error(Down),6
+383,03,1,L6682 06 L-FFU Error(For Robot  BF),6
+384,03,1,L6683 P3 EX QD75-1  AXIS WARNING,6
+385,03,1,L6684 P3 03Y BLF Driver Overload Protect,6
+386,03,1,L6685 P3 EX J2S-B   WARNINGS,6
+387,03,1,L6686 P3 EX J2S-B Openbattery Cable,6
+388,03,1,L6687 P3 EX J2S-B   Battery warning,6
+389,03,1,L6688 P3 EX J2S-B   Overloadwarning,6
+390,03,1,L6689 P3 EX J2S-B AbsoPosi,6
+391,03,1,L6690 P3 EX J2S-B   Main    circuit,6
+392,03,1,L6691 P3 EX J2S-B   SSCNET  error,6
+393,06,1,L6692 06Y BLF Driver Overload Protect,6
+394,03,1,L6693 P3 EX SERVO   WARNINGS,6
+395,03,1,L6694 P3 EX Fork sensor OFF Servo Command Disable,6
+396,03,1,L6695 P3 EX  Out of position sensor OFF Servo Command Disable,6
+397,03,1,L6696 P3 EX Glass Loading sensor ON Servo Down Command Disable,6
+398,03,1,L6697 P3 EX CST Sensor ON and Clamp Open,6
+399,03,1,L6698 P3 EX CST Sensor ON and Floating Table Unlock,6
+400,03,1,L6699 P3 EX Stopper FWD Servo Down Command Disable,6
+401,03,1,L6700 P3 EX Alignment FWD Servo Down Command Disable,6
+402,03,1,L6701 P3 EX CST at 0 Level not execute Up Level,6
+403,03,1,L6702 P3 EX CST at Last Level not execute Down Level,6
+404,03,1,L6703 P3 EX Driver Moving  Servo Command Disable,6
+405,03,1,L6704P3 EX Maintenance Alignment FWD Servo Command Disable,6
+406,03,1,L6705 P3 Wait Robot   Process Command,6
+407,03,1,L6706 P3 Process Command Check,6
+408,03,1,L6707 P3 EX GLS DataUnmatch(One Glass No Data),6
+409,03,1,L6708 P3 EX GLS DataUnmatch(One Data No Glass),6
+410,06,1,L6709 P3 CV   VCR ReadNG,6
+411,06,1,L6710 P3 CV   VCR DataUnmatch,6
+412,06,1,L6711 P3 CV   VCR Gls Data NotExist,6
+413,03,1,L6712 P3 Product Code Check Error,6
+414,03,1,L6713 P3 STK  T3 Timeout,6
+415,03,1,L6714 P3 STK  T6 Timeout,6
+416,03,1,L6715 P3 STK  T4 Timeout,6
+417,03,1,L6716 P3 Transfer Gls T0 Timeout,6
+418,03,1,L6717 P3 Transfer Gls T2 Timeout,6
+419,03,1,L6718 P3 Transfer Gls T3 Timeout,6
+420,03,1,L6719 P3 Transfer Gls T4 Timeout,6
+421,03,1,L6720 P3 Transfer Gls T6 Timeout,6
+422,03,1,L6721 P3 Transfer Gls T2 Timeout,6
+423,03,1,L6722 P3 Transfer Gls T3 Timeout,6
+424,03,1,L6723 P3 Transfer Gls T4 Timeout,6
+425,03,1,L6724 P3 Transfer Gls T6 Timeout,6
+426,03,1,L6725 P3 CST Load REQ T1 Timeout,6
+427,03,1,L6726 P3 CST Load REQ T3 Timeout,6
+428,03,1,L6727 P3 CST Load COMPT1 Timeout,6
+429,03,1,L6728 P3 CST Load COMPT3 Timeout,6
+430,06,1,L6729 06-1Y BLF Driver Overload Protect,6
+431,03,1,L6730 P3 Gls  Flow OutT1 Timeout,6
+432,03,1,L6731 P3 Gls  Flow OutT3 Timeout,6
+433,03,1,L6732 P3 Gls  Flow In T1 Timeout,6
+434,03,1,L6733 P3 Gls  Flow In T3 Timeout,6
+435,03,1,L6734 P3 CST Present Report T1Timeout,6
+436,03,1,L6735 P3 CST Present Report T3Timeout,6
+437,03,1,L6736 P3 CST  Unload  REQ T1  Timeout,6
+438,03,1,L6737 P3 CST  Unload  REQ T3  Timeout,6
+439,03,1,L6738 P3 CST  Unload  REQ T1  Timeout,6
+440,03,1,L6739 P3 CST  Unload  REQ T3  Timeout,6
+441,03,1,L6740 P3 CST  Unload  COMP T1 Timeout,6
+442,03,1,L6741 P3 CST  Unload  COMP T3 Timeout,6
+443,03,1,L6742 P3 Port Change  REQ T2  Timeout,6
+444,03,1,L6743 ,6
+445,03,1,L6744 P3 Port Pause   REQ T2  Timeout,6
+446,03,1,L6745 P3 Port Resume  REQ T2  Timeout,6
+447,03,1,L6746 P3 CST  Removed Report  T1 Timeo,6
+448,03,1,L6747 P3 CST  Removed Report  T3 Timeo,6
+449,03,1,L6748 P3 DummyCancel  REQ T2  Timeout,6
+450,03,1,L6749 P3 SPARE,6
+451,00,2,L6750 All Area EMOAlarm,1
+452,00,2,L6751 Air Pressure Down    Error,2
+453,00,2,L6752 System  Initial Error,2
+454,00,2,L6753 Running Mode Change error,2
+455,00,2,L6754 C.C. Link Error,2
+456,00,2,L6755 ,2
+457,00,2,L6756 ,2
+458,00,2,L6757 ,2
+459,00,2,L6758  ,2
+460,00,2,L6759 ,2
+461,00,2,L6760,2
+462,00,2,L6761 ,2
+463,00,2,L6762 ,2
+464,00,2,L6763 ,2
+465,00,2,L6764 ,2
+466,00,2,L6765 ,2
+467,00,2,L6766 ,2
+468,00,2,L6767 ,2
+469,00,2,L6768 ,2
+470,00,2,L6769 ,2
+471,00,1,L6770 Heartbeat Chk Failure T2 Timeout,6
+472,00,1,L6771 CST Process REQ T2 Timeout,6
+473,00,1,L6772 Gls DataREQ T1  Timeout,6
+474,00,1,L6773 Gls DataREQ T3  Timeout,6
+475,00,1,L6774 Gls SlotUnmatch ed T1   Timeout,6
+476,00,1,L6775 Gls SlotUnmatch ed T3   Timeout,6
+477,00,1,L6776 Gls Abnoemal RPTT1 Timeout,6
+478,00,1,L6777 Gls Abnoemal RPTT3 Timeout,6
+479,00,1,L6778 TransferReset T2Timeout,6
+480,00,1,L6779 PLC CPU Battery Low Warning,6
+481,00,1,L6780 Heartbeat Chk Failure T4Timeout,6
+482,00,1,L6781 NET-G Communication Error,6
+483,00,1,L6782 Series Module CH1Error,6
+484,00,1,L6783 Series Module CH2 Error,6
+485,00,1,L6784 Series Module CH3 Error,6
+486,00,1,L6785 Series Module CH4 Error,6
+487,00,1,L6786 ,6
+488,00,1,L6787 ,6
+489,00,1,L6788 ,6
+490,00,1,L6789 ,6
+491,00,1,L6790 ,6
+492,00,1,L6791 ,6
+493,00,1,L6792 ,6
+494,00,1,L6793 ,6
+495,00,1,L6794 ,6
+496,00,1,L6795 ,6
+497,00,1,L6796 ,6
+498,00,1,L6797 ,6
+499,00,1,L6798 ,6
+500,00,1,L6799 ,6
+501,00,1,L6800 ,6
+502,00,1,L6801 ,6
+503,00,1,L6802 ,6
+504,00,1,L6803 ,6
+505,00,1,L6804 ,6
+506,00,1,L6805 ,6
+507,00,1,L6806 ,6
+508,00,1,L6807 ,6
+509,00,1,L6808 ,6
+510,00,1,L6809 ,6
+511,00,1,L6810 ,6
+512,00,1,L6811 ,6

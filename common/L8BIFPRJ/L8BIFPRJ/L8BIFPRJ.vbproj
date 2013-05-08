@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8534F055-FFC1-4FD0-AABA-62EE497DA5B5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>L8BIFPRJ</RootNamespace>
+    <AssemblyName>L8BIFPRJ</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>L8BIFPRJ.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>L8BIFPRJ.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.Compatibility" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Nini, Version=1.1.0.0, Culture=neutral, PublicKeyToken=691faec150a7fa7b">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\Nini.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="Microsoft.VisualBasic.Compatibility" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="clsArmGlassInfo.vb" />
+    <Compile Include="clsBufferGlassInfo.vb" />
+    <Compile Include="clsDateTime.vb" />
+    <Compile Include="clsPLC.vb" />
+    <Compile Include="clsS167LotInfo.vb" />
+    <Compile Include="clsS167SlotInfo.vb" />
+    <Compile Include="clsS765LotInfo.vb" />
+    <Compile Include="clsS765SlotInfo.vb" />
+    <Compile Include="ctlCVGUIMain.Designer.vb">
+      <DependentUpon>ctlCVGUIMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ctlCVGUIMain.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctlEQGUIMain.Designer.vb">
+      <DependentUpon>ctlEQGUIMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ctlEQGUIMain.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctlGeneralGUI.Designer.vb">
+      <DependentUpon>ctlGeneralGUI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ctlGeneralGUI.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmSampleGlassSetting.Designer.vb">
+      <DependentUpon>frmSampleGlassSetting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSampleGlassSetting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTimeOutSetting.Designer.vb">
+      <DependentUpon>frmTimeOutSetting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTimeOutSetting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modLinkMapAddr.vb" />
+    <Compile Include="ModuleBufferInfo.vb" />
+    <Compile Include="ModuleCV.vb" />
+    <Compile Include="ModuleEQ.vb" />
+    <Compile Include="ModuleFunction.vb" />
+    <Compile Include="ModuleGeneralGUI.vb" />
+    <Compile Include="ModuleGUICV.vb" />
+    <Compile Include="ModuleGUIEQ.vb" />
+    <Compile Include="ModuleINI.vb" />
+    <Compile Include="ModuleMain.vb" />
+    <Compile Include="ModuleParameter.vb" />
+    <Compile Include="ModulePLC.vb" />
+    <Compile Include="ModuleRST.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ctlCVGUIMain.resx">
+      <DependentUpon>ctlCVGUIMain.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctlEQGUIMain.resx">
+      <DependentUpon>ctlEQGUIMain.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctlGeneralGUI.resx">
+      <DependentUpon>ctlGeneralGUI.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSampleGlassSetting.resx">
+      <DependentUpon>frmSampleGlassSetting.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTimeOutSetting.resx">
+      <DependentUpon>frmTimeOutSetting.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\clsNetGlobLog\NetGlobLog.vbproj">
+      <Project>{7645F4B9-DC7A-4440-9882-E7D38DF2C68C}</Project>
+      <Name>NetGlobLog</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GUI\CV\AUOL7BCVGUIOCX\AUOL7BCVGUIOCX.vbproj">
+      <Project>{F26FD254-09D9-462A-B1F3-3A4FCEF807E5}</Project>
+      <Name>AUOL7BCVGUIOCX</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GUI\EQ\AUOL7BEQGUIOCX\AUOL7BDEQGUIOCX\AUOL7BDEQGUIOCX.vbproj">
+      <Project>{E399EE40-1624-4392-B120-415A4C41F0C7}</Project>
+      <Name>AUOL7BDEQGUIOCX</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PLC ReadWrite\PLC ReadWrite\PLC ReadWrite.csproj">
+      <Project>{D3BDC9B9-2899-4625-AE44-20615B7BEBBF}</Project>
+      <Name>PLC ReadWrite</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{94E38DFF-614B-4CBD-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

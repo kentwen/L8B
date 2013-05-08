@@ -1,0 +1,546 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F26FD254-09D9-462A-B1F3-3A4FCEF807E5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>WindowsControlLibrary1</RootNamespace>
+    <AssemblyName>AUOL7BCVGUIOCX</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>AUOL7BCVGUIOCX.xml</DocumentationFile>
+    <DefineConstants>_MYFORMS=True</DefineConstants>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>AUOL7BCVGUIOCX.xml</DocumentationFile>
+    <DefineConstants>_MYFORMS=True</DefineConstants>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AlarmMonitor.Designer.vb">
+      <DependentUpon>AlarmMonitor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AlarmMonitor.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AlarmSignal.Designer.vb">
+      <DependentUpon>AlarmSignal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AlarmSignal.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CSTPresent.Designer.vb">
+      <DependentUpon>CSTPresent.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CSTPresent.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CSTProcessCMD.Designer.vb">
+      <DependentUpon>CSTProcessCMD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CSTProcessCMD.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CSTRemoved.Designer.vb">
+      <DependentUpon>CSTRemoved.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CSTRemoved.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CSTUnloadByCV.Designer.vb">
+      <DependentUpon>CSTUnloadByCV.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CSTUnloadByCV.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CSTUnloadByRST.Designer.vb">
+      <DependentUpon>CSTUnloadByRST.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CSTUnloadByRST.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CSTUnloadComp.Designer.vb">
+      <DependentUpon>CSTUnloadComp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CSTUnloadComp.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CSTDummyCancel.Designer.vb">
+      <DependentUpon>CSTDummyCancel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CSTDummyCancel.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CSTLoadComplete.Designer.vb">
+      <DependentUpon>CSTLoadComplete.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CSTLoadComplete.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CSTLoadReq.Designer.vb">
+      <DependentUpon>CSTLoadReq.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CSTLoadReq.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GxAbnormal.Designer.vb">
+      <DependentUpon>GxAbnormal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GxAbnormal.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GxDataReq.Designer.vb">
+      <DependentUpon>GxDataReq.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GxDataReq.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GxFlowIn.Designer.vb">
+      <DependentUpon>GxFlowIn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GxFlowIn.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GxFlowOut.Designer.vb">
+      <DependentUpon>GxFlowOut.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GxFlowOut.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GxInfoUnmatch.Designer.vb">
+      <DependentUpon>GxInfoUnmatch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GxInfoUnmatch.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GXTR_CV2RST.Designer.vb">
+      <DependentUpon>GXTR_CV2RST.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GXTR_CV2RST.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GxTR_RST2CV.Designer.vb">
+      <DependentUpon>GxTR_RST2CV.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GxTR_RST2CV.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LinkStatus.Designer.vb">
+      <DependentUpon>LinkStatus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LinkStatus.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="modCVGUIMain.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="CVSignal.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CVSignal.Designer.vb">
+      <DependentUpon>CVSignal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PortChangeReq.Designer.vb">
+      <DependentUpon>PortChangeReq.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PortChangeReq.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PortPause.Designer.vb">
+      <DependentUpon>PortPause.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PortPause.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PortResume.Designer.vb">
+      <DependentUpon>PortResume.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PortResume.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PortStatus.Designer.vb">
+      <DependentUpon>PortStatus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PortStatus.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RSTSignal.Designer.vb">
+      <DependentUpon>RSTSignal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RSTSignal.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="StatusReport.Designer.vb">
+      <DependentUpon>StatusReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="StatusReport.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TimeChart_CSTDummyCancel.Designer.vb">
+      <DependentUpon>TimeChart_CSTDummyCancel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TimeChart_CSTDummyCancel.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TimeChart_CSTLoadComp.Designer.vb">
+      <DependentUpon>TimeChart_CSTLoadComp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TimeChart_CSTLoadComp.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TimeChart_CSTLoadreq.Designer.vb">
+      <DependentUpon>TimeChart_CSTLoadreq.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TimeChart_CSTLoadreq.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TimeChart_CSTProcessReq.Designer.vb">
+      <DependentUpon>TimeChart_CSTProcessReq.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TimeChart_CSTProcessReq.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TimeChart_CSTUnloadComp.Designer.vb">
+      <DependentUpon>TimeChart_CSTUnloadComp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TimeChart_CSTUnloadComp.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TimeChart_CSTUnloadReqByCV.Designer.vb">
+      <DependentUpon>TimeChart_CSTUnloadReqByCV.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TimeChart_CSTUnloadReqByCV.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TimeChart_CSTUnloadReqByRST.Designer.vb">
+      <DependentUpon>TimeChart_CSTUnloadReqByRST.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TimeChart_CSTUnloadReqByRST.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TimeChart_CVTR.Designer.vb">
+      <DependentUpon>TimeChart_CVTR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TimeChart_CVTR.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TimeChart_GxAbnormal.Designer.vb">
+      <DependentUpon>TimeChart_GxAbnormal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TimeChart_GxAbnormal.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TimeChart_GxDataReq.Designer.vb">
+      <DependentUpon>TimeChart_GxDataReq.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TimeChart_GxDataReq.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TimeChart_GxFlowIn.Designer.vb">
+      <DependentUpon>TimeChart_GxFlowIn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TimeChart_GxFlowIn.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TimeChart_GxFlowOut.Designer.vb">
+      <DependentUpon>TimeChart_GxFlowOut.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TimeChart_GxFlowOut.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TimeChart_GxSlotUnmatch.Designer.vb">
+      <DependentUpon>TimeChart_GxSlotUnmatch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TimeChart_GxSlotUnmatch.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TimeChart_Link.Designer.vb">
+      <DependentUpon>TimeChart_Link.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TimeChart_Link.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TimeChart_PortChangeReq.Designer.vb">
+      <DependentUpon>TimeChart_PortChangeReq.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TimeChart_PortChangeReq.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TimeChart_RSTTR.Designer.vb">
+      <DependentUpon>TimeChart_RSTTR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TimeChart_RSTTR.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TimeChart_TRReset.Designer.vb">
+      <DependentUpon>TimeChart_TRReset.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TimeChart_TRReset.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TRReset.Designer.vb">
+      <DependentUpon>TRReset.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TRReset.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AlarmMonitor.resx">
+      <DependentUpon>AlarmMonitor.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlarmSignal.resx">
+      <DependentUpon>AlarmSignal.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CSTPresent.resx">
+      <DependentUpon>CSTPresent.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CSTProcessCMD.resx">
+      <DependentUpon>CSTProcessCMD.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CSTRemoved.resx">
+      <DependentUpon>CSTRemoved.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CSTUnloadByCV.resx">
+      <DependentUpon>CSTUnloadByCV.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CSTUnloadByRST.resx">
+      <DependentUpon>CSTUnloadByRST.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CSTUnloadComp.resx">
+      <DependentUpon>CSTUnloadComp.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CSTDummyCancel.resx">
+      <DependentUpon>CSTDummyCancel.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CSTLoadComplete.resx">
+      <DependentUpon>CSTLoadComplete.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CSTLoadReq.resx">
+      <DependentUpon>CSTLoadReq.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GxAbnormal.resx">
+      <DependentUpon>GxAbnormal.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GxDataReq.resx">
+      <DependentUpon>GxDataReq.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GxFlowIn.resx">
+      <DependentUpon>GxFlowIn.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GxFlowOut.resx">
+      <DependentUpon>GxFlowOut.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GxInfoUnmatch.resx">
+      <DependentUpon>GxInfoUnmatch.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GXTR_CV2RST.resx">
+      <DependentUpon>GXTR_CV2RST.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GxTR_RST2CV.resx">
+      <DependentUpon>GxTR_RST2CV.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LinkStatus.resx">
+      <DependentUpon>LinkStatus.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CVSignal.resx">
+      <DependentUpon>CVSignal.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PortChangeReq.resx">
+      <DependentUpon>PortChangeReq.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PortPause.resx">
+      <DependentUpon>PortPause.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PortResume.resx">
+      <DependentUpon>PortResume.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PortStatus.resx">
+      <DependentUpon>PortStatus.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RSTSignal.resx">
+      <DependentUpon>RSTSignal.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatusReport.resx">
+      <DependentUpon>StatusReport.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimeChart_CSTDummyCancel.resx">
+      <DependentUpon>TimeChart_CSTDummyCancel.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimeChart_CSTLoadComp.resx">
+      <DependentUpon>TimeChart_CSTLoadComp.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimeChart_CSTLoadreq.resx">
+      <DependentUpon>TimeChart_CSTLoadreq.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimeChart_CSTProcessReq.resx">
+      <DependentUpon>TimeChart_CSTProcessReq.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimeChart_CSTUnloadComp.resx">
+      <DependentUpon>TimeChart_CSTUnloadComp.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimeChart_CSTUnloadReqByCV.resx">
+      <DependentUpon>TimeChart_CSTUnloadReqByCV.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimeChart_CSTUnloadReqByRST.resx">
+      <DependentUpon>TimeChart_CSTUnloadReqByRST.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimeChart_CVTR.resx">
+      <DependentUpon>TimeChart_CVTR.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimeChart_GxAbnormal.resx">
+      <DependentUpon>TimeChart_GxAbnormal.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimeChart_GxDataReq.resx">
+      <DependentUpon>TimeChart_GxDataReq.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimeChart_GxFlowIn.resx">
+      <DependentUpon>TimeChart_GxFlowIn.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimeChart_GxFlowOut.resx">
+      <DependentUpon>TimeChart_GxFlowOut.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimeChart_GxSlotUnmatch.resx">
+      <DependentUpon>TimeChart_GxSlotUnmatch.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimeChart_Link.resx">
+      <DependentUpon>TimeChart_Link.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimeChart_PortChangeReq.resx">
+      <DependentUpon>TimeChart_PortChangeReq.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimeChart_RSTTR.resx">
+      <DependentUpon>TimeChart_RSTTR.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimeChart_TRReset.resx">
+      <DependentUpon>TimeChart_TRReset.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TRReset.resx">
+      <DependentUpon>TRReset.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

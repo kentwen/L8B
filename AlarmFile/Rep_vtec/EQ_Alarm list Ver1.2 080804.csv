@@ -1,0 +1,537 @@
+"#Alarm Code Definition                  ",,,
+"#===========================================
+"#Sequence number: 1Å`999                 ,,,,
+
+#Unit,,,,
+00= Whole Equipment 01-09: Definition by equipment vender
+"                              "
+"#Level Definition              "
+"#==========================================
+"# 0    Normal                 "
+"# 1    Warning                "
+"# 2    Alarm                  "
+"                              "
+"#Type Definition              "
+"#==============================================================
+"#1    Danger for human                                       "
+"#2    Equipment Error                                        "
+"#3    Parameter error                                        "
+"#4    Parameter overflow cause equipment can not work        "
+"#5    Can not recover warning                                "
+"#6    Equipment status warning                               "
+"#7    Measurement and Lapping error                          "
+"#8    Communication error                                    "
+"#9    Laser error                                            "
+"#===============================================================
+
+AlarmCode,Unit,Level,Description,Type
+1,0,2,Emergency stop switch pushed.Release emergency switch and then click reset button.Carry out return to home position after clicking reset button., 5
+2,0,2,Driven power OFF.Click reset button before pushing emergency stop switch to recover.,2
+3,0,2,,
+4,0,2,,
+5,0,2,Do not drive for driver alarm axis.Click reset button before pushing emergency stop switch to recover.,2
+6,0,2,Return to home position not executedÅI,2
+7,0,2,Power on failed Driver power on error,2
+8,0,2,,
+9,0,2,,
+10,0,2,Driver error of X-axis occurs.Click reset button before pushing emergency stop switch to recover.,2
+11,0,2,Driver error of Y-axis occurs.Click reset button before pushing emergency stop switch to recover.,2
+12,0,2,Driver error of Z-axis occurs.Click reset button before pushing emergency stop switch to recover.	,2
+13,0,2,Driver error of H3-axis occurs.Click reset button before pushing emergency stop switch to recover.,2
+14,0,2,Driver error of Lifter-axis occurs.Click reset button before pushing emergency stop switch to recover.,2
+15,0,2,Driver error of X2-axis occurs.Click reset button before pushing emergency stop switch to recover.,2
+16,0,2,Driver error of Slider-axis occurs.Click reset button before pushing emergency stop switch to recover.,2
+17,0,2,,
+18,0,2,,Driver error of T3-axis occurs.Click reset button before pushing emergency stop switch to recover.,2
+19,0,2,,
+20,0,2,Driver error of ink-X-axis occurs.Click reset button before pushing emergency stop switch to recover.,2
+21,0,2,Driver error of ink-Y-axis occurs.Click reset button before pushing emergency stop switch to recover.,2
+22,0,2,Driver error of ink-Z-axis occurs.Click reset button before pushing emergency stop switch to recover.,2
+23,0,2,Driver error of ink-theta-axis occurs.Click reset button before pushing emergency stop switch to recover.,2
+24,0,2,,
+25,0,2,,
+26,0,2,+OT error of X-axis occurs.Click reset button before pushing emergency stop switch to recover.,2
+27,0,2,+OT error of Y-axis occurs.Click reset button before pushing emergency stop switch to recover.,2
+28,0,2,+OT error of Z-axis occurs.Click reset button before pushing emergency stop switch to recover.,2
+29,0,2,+OT error of H3-axis occurs.Click reset button before pushing emergency stop switch to recover.,2
+30,0,2,+OT error of Lifter-axis occurs.Click reset button before pushing emergency stop switch to recover.,2
+31,0,2,+OT error of X2-axis occurs.Click reset button before pushing emergency stop switch to recover.,2
+32,0,2,+OT error of Slider-axis occurs.Click reset button before pushing emergency stop switch to recover.,2
+33,0,2,
+34,0,2,,+OT error of T3-axis occurs.Click reset button before pushing emergency stop switch to recover.,2
+35,0,2,,
+36,0,2,,+OT error of ink-X-axis occurs.Click reset button before pushing emergency stop switch to recover.,2
+37,0,2,,+OT error of ink-Y-axis occurs.Click reset button before pushing emergency stop switch to recover.,2
+38,0,2,,+OT error of ink-Z-axis occurs.Click reset button before pushing emergency stop switch to recover.,2
+39,0,2,,+OT error of ink-theta-axis occurs.Click reset button before pushing emergency stop switch to recover.,2
+40,0,2,,
+41,0,2,,
+42,0,2,-OT error of X-axis occurs.Click reset button before pushing emergency stop switch to recover.,2
+43,0,2,-OT error of Y-axis occurs.Click reset button before pushing emergency stop switch to recover.,2
+44,0,2,-OT error of Z-axis occurs.Click reset button before pushing emergency stop switch to recover.,2
+45,0,2,-OT error of H3-axis occurs.Click reset button before pushing emergency stop switch to recover.,2
+46,0,2,-OT error of Lifter-axis occurs.Click reset button before pushing emergency stop switch to recover.,2
+47,0,2,-OT error of X2-axis occurs.Click reset button before pushing emergency stop switch to recover.,2
+48,0,2,-OT error of Slider-axis occurs.Click reset button before pushing emergency stop switch to recover.,2
+49,0,2,
+50,0,2,,-OT error of T3-axis occurs.Click reset button before pushing emergency stop switch to recover.,2
+51,0,2,,
+52,0,2,-OT error of ink-X-axis occurs.Click reset button before pushing emergency stop switch to recover.,2
+53,0,2,-OT error of ink-Y-axis occurs.Click reset button before pushing emergency stop switch to recover.,2
+54,0,2,-OT error of ink-Z-axis occurs.Click reset button before pushing emergency stop switch to recover.,2
+55,0,2,-OT error of ink-theta-axis occurs.Click reset button before pushing emergency stop switch to recover.,2
+56,0,2,,
+57,0,2,,
+58,0,2,Axis positioning error.,2
+59,0,2,The amount error error of movements of X1 / X2 axis.,2
+60,0,2,The amount error error of movements of X1 / X2 axis.,2
+61,0,2,Operation impracticable owing to door open.,2
+62,0,2,Operation stop owing to door open.,2
+63,0,2,Operation impracticable owing to lifter ascending at this moment.,2
+64,0,2,Axsi drive stop for lifter ascending.,2
+65,0,2,X/Y movement impracticable owing to hand inserting at this moment.,2
+66,0,2,X/Y stop for hand insert.,2
+67,0,2,Operation impracticable owing to Maintenance-Key ON.,2
+68,0,2,Axis drive stop for Maintenance-Key ON.,2
+69,0,2,Operation impracticable owing to Clamp up potion.,2
+70,0,2,Axis drive stop for Clamp up potion.,2
+71,0,2,It cannot operate by MASK mode.,2
+72,0,2,It cannot operate by equipment inclination.,2
+73,0,2,,
+74,0,2,,
+75,0,2,,
+76,0,2,,
+77,0,2,,
+78,0,2,,
+79,0,2,,
+80,0,2,Revolver operation failed.,2
+81,0,2,Communucation with revolver unit failed.,8
+82,0,2,Time-out occurs in communication with revolver unit.,8
+83,0,2,Communucation with AF unit failed.Turn on AF system power again.,8
+84,0,2,Time out occurs in processing AF unit.Turn on AF system power again.,8
+85,0,2,,
+86,0,2,,
+87,0,2,,
+88,0,2,Measurement or lapping head sensor responses, X/Y cannot operate.,7
+89,0,2,X/Y operation stopped for Measurement or lapping head sensor responses.,7
+90,0,2,Measuring impracticable at the current position.,7
+91,0,2,Lapping impracticable at the current position.,7
+92,0,2,Lifter ascending impracticable at this position.,7
+93,0,2,Stamp push impracticable at this position.,7
+94,0,2,The lapping improper state occurred continuously.Please check a lapping tape, a head sensor, etc.,2795,0,2,Lifter down operation failed.,2
+96,0,2,Operation failure during height measuring.,7
+97,0,2,Operation failure during lapping.,7
+98,0,2,Head up failed.,7
+99,0,2,The data of height measurement height is wrong. orign = #######.### +- #######.###  measurement = #######.###,7
+100,0,2,Tape rotating impracticable during lapping.,7
+101,0,2,Tape rotating impracticable during lapping.And the encoder is not changed even it is rotated with emptiness.,7
+102,0,2,Measurement/Lapping sequence failed.,7
+103,0,2,Standard protrusion position is not registered.,7
+104,0,2,Adjustment position movement for getting head sensor compensation data failed.(It is under movement to start height)",7
+105,0,2,Adjustment position movement for getting head sensor compensation data failed.(It is under movement to final height)",7
+106,0,2,Head sensor compensation data failed.  data = #######.###É ?,7
+107,0,2,Getting sensor compensation data failed.(It is under movement to start height)",7
+108,0,2,Getting sensor compensation data failed.(It is under movement to final height)",7
+109,0,2,,
+110,0,2,,
+111,0,2,,
+112,0,2,,
+113,0,2,Stage vacuum operation failed.,2
+114,0,2,Lifter vacuum operation failed.,2
+115,0,2,Clamp go failed.ADF/BCE/Çf/UP,2
+116,0,2,Clamp return failed.ADF/BCE/Çf/UP,2
+117,0,2,Stamping failed.,2
+118,0,2,Stamp storage failed.,2
+119,0,2,Work size adjustment failed.,2
+120,0,2,Alignment faild.,2
+121,0,2,Stamping failed.,2
+122,0,2,Please perform zero adjustment of sensor amplifier.Compensation value = #######.###É ?",2
+123,0,2,Please carry out instructions manual reference and adjust S1-/S2 sensor by MAIKUROMETA of polish head both the sides.,2
+124,0,2,The lapping improper state occurred continuously.Please check a lapping tape, a head sensor, etc.,2
+125,0,2,HS compensation data or PG compensation data is not registered.,2
+126,0,2,Injection operation was started although there is glass.If this dialog is closed, lifter will going dowen.,2
+127,0,2,Although clamped, there was no glass.,2
+128,0,2,The data which is not right is in a measurement lapping parameter.,2
+129,0,2,It is the irradiation error of the IR heater.,2
+130,0,2,The deviation counter of an ink axis overflowed or beyond a regulation value.,2
+131,0,2,Serial IO error.,8
+132,0,2,,
+133,0,2,,
+134,0,2,,
+135,0,2,'The command communication port with a control board was disconnect.,8
+136,0,2,The data receive port with a control board was disconnect.,8
+137,0,2,Data is not received from a control board.,8
+138,0,2,,
+139,0,2,,
+140,0,2,,
+141,0,2,,
+142,0,2,Communucation with 10-Axis controler failed.Turn on 10-Axis controler power again.,8
+143,0,2,Time out occurs in processing 10-Axis controler.Turn on 10-Axis controler power again.,8
+144,0,2,,
+145,0,2,,
+146,0,2,Communucation with Laser unit failed.Turn on Laser system power again.,8
+147,0,2,Time out occurs in processing Laser unit.Turn on Laser system power again.,8
+148,0,2,,
+149,0,2,,
+150,0,2,Command error from control board.,8
+151,0,2,There is no setting information.,8
+152,0,2,Not connect with the control board.,8
+153,0,2,Active command error from control board.,8
+154,0,2,Parameter error from control board.,3
+155,0,2,The specified polish head/sensor has not been assigned.,2
+156,0,2,The specified Joy axis has not been assigned.,2
+157,0,2,The specified Joy speed has not been assigned.,2
+158,0,2,The specified video channel has not been assigned.,2
+159,0,2,The positioning command was published on the axis which is not a positioning axis.,2
+160,0,2,The appointed RS-232C port is not opened.,8
+161,0,2,LOADER EMO is OFF.,2
+162,0,2,,
+163,0,2,,
+164,0,2,,
+165,0,2,,
+166,0,2,,
+167,0,2,,
+168,0,2,,
+169,0,2,,
+170,0,2,,
+171,0,2,,
+172,0,2,,
+173,0,2,,
+174,0,2,,
+175,0,2,,
+176,0,2,,
+177,0,2,,
+178,0,2,,
+179,0,2,,
+180,0,2,,
+181,0,2,,
+182,0,2,,
+183,0,2,,
+184,0,2,,
+185,0,2,,
+186,0,2,,
+187,0,2,,
+188,0,2,,
+189,0,2,,
+190,0,2,,
+191,0,2,,
+192,0,2,,
+193,0,2,,
+194,0,2,,
+195,0,2,,
+196,0,2,,
+197,0,2,,
+198,0,2,,
+199,0,2,Stopped operating for cancellation order.,2
+200,0,2,The communication socket with a control board is already open settled.,8
+201,0,2,The communication socket with a control board is not opened.,8
+202,0,2,Communication socket creation error with a control board.,8
+203,0,2,The communication socket connection with a control board went wrong.,8
+204,0,2,Transmitting error with communication socket with a control board.,8
+205,0,2,Receive error with a communication socket with a control board.,8
+206,0,2,The communication socket with a control board was cut.,8
+207,0,2,Time-out occurs in communication with control board.,8
+208,0,2,,
+209,0,2,,
+210,0,2,,
+211,0,2,,
+212,0,2,,
+213,0,2,,
+214,0,2,,
+215,0,2,,
+216,0,2,,
+217,0,2,,
+218,0,2,,
+219,0,2,,
+220,0,2,,
+221,0,2,,
+222,0,2,,
+223,0,2,,
+224,0,2,,
+225,0,2,,
+226,0,2,,
+227,0,2,,
+228,0,2,,
+229,0,2,,
+230,0,2,Defect information read out is interrupted by cancel order.,2
+231,0,2,No defect information file at the designated position.,2
+232,0,2,Format of read out defect information file is not appropriate.,2
+233,0,2,Defect file write failed.,2
+234,0,2,Make directory failed.,2
+235,0,2,Work size of read out defect information filedoesn't match current selected recipe.,3
+236,0,2,File open failed.,2
+237,0,2,No applicable recipe file.,2
+238,0,2,Not-yet-registered data in applicable recipe file.,2
+239,0,2,,
+240,0,2,,
+241,0,2,,
+242,0,2,The data number of inspection results exceeds the greatest number.,6
+243,0,2,Work is not installed.,2
+244,0,2,Work is not adsorbed.,2
+245,0,2,,
+246,0,2,Lotid request failed ,3
+247,0,2,Glassid request failed ,3
+248,0,2,,
+249,0,2,,
+250,0,2,Lifter axis upper position check sensor did not turn on.,2
+251,0,2,,
+252,0,2,,
+253,0,2,,
+254,0,2,,
+255,0,2,,
+256,0,2,,
+257,0,2,,
+258,0,2,,
+259,0,2,,
+260,0,2,Unoperated State which has not carried out SHIMA lighting under an ERROR display or by Key SW ON,9
+261,0,2,Under a door interlock operation.,2
+262,0,2,It will be a reservation setup in the future.,2
+263,0,2,,
+264,0,2,Unit BUSY. It is [ manual ] under operation by the inside of a laser shot, or the operation unit.,9
+265,0,2,It is throughout [ one COOL ]. (A laser head in order to exceed the number which can be continuation oscillated under cooling),9
+266,0,2,It is throughout [ two COOL(s) ]. (Period for displaying  Shot Number at the stop time),9
+267,0,2,It is during a capacitor charge voltage change period.,9
+268,0,2,The abnormalities in flash lamp power supply temperature.,9
+269,0,2,The abnormalities in SHIMA non-switching on the light.,9
+270,0,2,Flash lamp power supply   Power Not Ready.,9
+271,0,2,Laser power supply cover interlock.,9
+272,0,2,The abnormalities in laser head temperature.,9
+273,0,2,SHIMA going out.,9
+274,0,2,Laser head cover interlock.,9
+275,0,2,Laser head set Interlock.,9
+276,0,2,The abnormalities in circulation cooling-water temperature.,9
+277,0,2,The abnormalities in a water tank level.,9
+278,0,2,The abnormalities in circulation cooling water.,9
+279,0,2,Cooling water leak.,9
+280,0,2,Main part backup data breakage.,9
+281,0,2,Serial port communication error.,8
+282,0,2,Laser unit external remote interlock.,8
+283,0,2,Serial port of laser unit open failed ,8
+284,0,2,Serial port of laser unit data send failed ,8
+285,0,2,No response from laser unit ,8
+286,0,2,Reading data from laser unit is abnormal ,8
+287,0,2,A laser device is returned an error with serial communication.,8
+288,0,2,,
+289,0,2,Laser slit X soft limit (+).Please re-switch on the power supply of controller Please origin operation from [Laser control box] of menu.,9
+290,0,2,Laser slit X soft limit (-).Please re-switch on the power supply of controller Please origin operation from [Laser control box] of menu.,9
+291,0,2,Laser slit Y soft limit (+).Please re-switch on the power supply of controller Please origin operation from [Laser control box] of menu.,9
+292,0,2,Laser slit Y soft limit (-).Please re-switch on the power supply of controller Please origin operation from [Laser control box] of menu.,9
+293,0,2,Laser slit É∆1 soft limit (+).Please re-switch on the power supply of controller Please origin operation from [Laser control box] of menu.,9
+294,0,2,Laser slit É∆1 soft limit (-).Please re-switch on the power supply of controller Please origin operation from [Laser control box] of menu.,9
+295,0,2,Laser slit É∆2 soft limit (+).Please re-switch on the power supply of controller Please origin operation from [Laser control box] of menu.,9
+296,0,2,Laser slit É∆2 soft limit (-).Please re-switch on the power supply of controller Please origin operation from [Laser control box] of menu.,9
+297,0,2, Laser unit is busy.,9
+298,0,2,,
+299,0,2,,
+300,0,2,,
+301,0,2,Laser slit X hard limit (+).Please re-switch on the power supply of controller Please origin operation from [Laser control box] of menu.,9
+302,0,2,Laser slit X hard limit (-).Please re-switch on the power supply of controller Please origin operation from [Laser control box] of menu.,9
+303,0,2,Laser slit Y hard limit (+).Please re-switch on the power supply of controller Please origin operation from [Laser control box] of menu.,9
+304,0,2,Laser slit Y hard limit (-).Please re-switch on the power supply of controller Please origin operation from [Laser control box] of menu.,9
+305,0,2,Laser slit É∆1 hard limit (+).Please re-switch on the power supply of controller Please origin operation from [Laser control box] of menu.,9
+306,0,2,Laser slit É∆1 hard limit (+).Please re-switch on the power supply of controller Please origin operation from [Laser control box] of menu.,9
+307,0,2,Laser slit É∆2 hard limit (+).Please re-switch on the power supply of controller Please origin operation from [Laser control box] of menu.,9
+308,0,2,Laser slit É∆2 hard limit (-).Please re-switch on the power supply of controller Please origin operation from [Laser control box] of menu.,9
+309,0,2,Laser slit X origin detection error.Please re-switch on the power supply of controller Please origin operation from [Laser control box] of menu.,9
+310,0,2,Laser slit Y origin detection error.Please re-switch on the power supply of controller Please origin operation from [Laser control box] of menu.,9
+311,0,2,Laser slit É∆1 origin detection error.Please re-switch on the power supply of controller Please origin operation from [Laser control box] of menu.,9
+312,0,2,Laser slit É∆2 origin detection error.Please re-switch on the power supply of controller Please origin operation from [Laser control box] of menu.,9
+313,0,2,Laser slit X servo off error.Please re-switch on the power supply of controller Please origin operation from [Laser control box] of menu.,9
+314,0,2,Laser slit Y servo off error.Please re-switch on the power supply of controller Please origin operation from [Laser control box] of menu.,9
+315,0,2,Laser slit É∆ servo off error.Please re-switch on the power supply of controllerPlease origin operation from [Laser control box] of menu.,9
+316,0,2,Laser slit hardware limit error.Please re-switch on the power supply of controller Please origin operation from [Laser control box] of menu.,9
+317,0,2,Laser slit command error.Please re-switch on the power supply of controller Please origin operation from [Laser control box] of menu.,9
+318,0,2,Laser slit check sum error.,9
+319,0,2,Laser slit RS-232C error.Please re-switch on the power supply of controller Please origin operation from [Laser control box] of menu.,9
+320,0,2,Laser slit backup data breakage.,9
+321,0,2,The abnormalities in laser slit controller.Please re-switch on the power supply of controller Please origin operation from [Laser control box] of menu.",9
+322,0,2,,
+323,0,2,,
+324,0,2,,
+325,0,2,,
+326,0,2,,
+327,0,2,,
+328,0,2,,
+329,0,2,,
+330,0,2,,
+331,0,2,,
+332,0,2,,
+333,0,2,,
+334,0,2,,
+335,0,2,,
+336,0,2,,
+337,0,2,,
+338,0,2,,
+339,0,2,,
+340,0,2,,
+341,0,2,,
+342,0,2,,
+343,0,2,,
+344,0,2,,
+345,0,2,The timeout of T2 occurred in the injection handshake.,2
+346,0,2,The timeout of T3 occurred in the injection handshake.,2
+347,0,2,The timeout of T4 occurred in the injection handshake.,2
+348,0,2,The timeout of T6 occurred in the injection handshake.,2
+349,0,2,The timeout of T2 occurred in the discharge handshake.,2
+350,0,2,The timeout of T3 occurred in the discharge handshake.,2
+351,0,2,The timeout of T4 occurred in the discharge handshake.,2
+352,0,2,The timeout of T6 occurred in the discharge handshake.,2
+353,0,2,The timeout of T2 occurred in the exchange handshake.,2
+354,0,2,The timeout of T3 occurred in the exchange handshake.,2
+355,0,2,The timeout of T4 occurred in the exchange handshake.,2
+356,0,2,The timeout of T6 occurred in the exchange handshake.,2
+357,0,2,The timeout of T1 occurred in the Glass Erase handshake.,2
+358,0,2,The timeout of T3 occurred in the Glass Erase handshake.,2
+359,0,2,The timeout of T2 occurred in the Recipe exist check handshake.,2
+360,0,2,The timeout of T1 occurred in the Recipe Modify handshake.,2
+361,0,2,The timeout of T3 occurred in the Recipe Modify handshake.,2
+362,0,2,The timeout of T2 occurred in the Transfer Reset handshake.,2
+363,0,2,The timeout of T2 occurred in the Link Test handshake.,2
+364,0,2,Sample Glass Flag is wrong. (DATA=%d)", g_LudCtrl.m_nHWRdDatG75.SamplGlsFlag,
+365,0,2,,
+366,0,2,,
+367,0,2,,
+368,0,2,,
+369,0,2,,
+370,0,2,,
+371,0,2,,
+372,0,2,,
+373,0,2,,
+374,0,2,,
+375,0,2,,
+376,0,2,,
+377,0,2,,
+378,0,2,,
+379,0,2,,
+380,0,2,,
+381,0,2,,
+382,0,2,,
+383,0,2,,
+384,0,2,,
+385,0,2,,
+386,0,2,,
+387,0,2,,
+388,0,2,,
+389,0,2,,
+390,0,2,,
+391,0,2,,
+392,0,2,,
+393,0,2,,
+394,0,2,,
+395,0,2,,
+396,0,2,,
+397,0,2,,
+398,0,2,,
+399,0,2,,
+400,0,2,There is no CF repair recipe file.Please check the CF repair recipe file,2
+401,0,2,The ink injection time is illegal.Ink injection setting time is up to 3100msec.,2
+402,0,2,The size of the pulse laser is illegal.Please input the size of the pulse laser.,2
+403,0,2,Pulse laser size is larger than slit size.Please check the CF repair recipe file.,2
+404,0,2,It is set to no use by present Rebolba.Please set it when processing it by a present magnification to use by the parameter.,2
+405,0,2,Contact was not detected by getting to the compulsion position.Please adjust a height control parameter.,2
+406,0,2,Head position was not able to be detected.Please confirm the range of processing is adjusted by the parameter and the point comes to the center within the range of processing.,2
+407,0,2,Processing was not able to be continued though head position was detected.Please confirm the range of processing is adjusted by the parameter  and the point comes to the center within the range of processing.,2
+408,0,2,CF repair processing by the operator stopped in the emergency.,2
+409,0,2,The ink injection number is illegal.Ink injection setting number is up to 31 num.,2
+410,0,2,The ink injection interval time is illegal.Ink injection setting interval time is up to 2046msec.,2
+411,0,2,The ink dispence pressure is abnomal.,2
+412,0,2,The ink dispence pressure is disable.,2
+413,0,2,,
+414,0,2,The EQ tried coating of the ink, but canceled execution because a focus was abnormal.,2
+415,0,2,,
+416,0,2,,
+417,0,2,,
+418,0,2,,
+419,0,2,,
+420,0,2,,
+421,0,2,,
+422,0,2,,
+423,0,2,,
+424,0,2,,
+425,0,2,,
+426,0,2,,
+427,0,2,,
+428,0,2,,
+429,0,2,,
+430,0,2,,
+431,0,2,,
+432,0,2,,
+433,0,2,,
+434,0,2,,
+435,0,2,,
+436,0,2,,
+437,0,2,,
+438,0,2,,
+439,0,2,,
+440,0,2,,
+441,0,2,,
+442,0,2,,
+443,0,2,,
+444,0,2,,
+445,0,2,,
+446,0,2,,
+447,0,2,,
+448,0,2,,
+449,0,2,,
+450,0,2,,
+451,0,2,,
+452,0,2,,
+453,0,2,,
+454,0,2,,
+455,0,2,,
+456,0,2,,
+457,0,2,,
+458,0,2,,
+459,0,2,,
+460,0,2,,
+461,0,2,,
+462,0,2,,
+463,0,2,,
+464,0,2,,
+465,0,2,,
+466,0,2,,
+467,0,2,,
+468,0,2,,
+469,0,2,,
+470,0,2,,
+471,0,2,,
+472,0,2,,
+473,0,2,,
+474,0,2,,
+475,0,2,,
+476,0,2,,
+477,0,2,,
+478,0,2,,
+479,0,2,,
+480,0,2,,
+481,0,2,,
+482,0,2,,
+483,0,2,,
+484,0,2,,
+485,0,2,,
+486,0,2,,
+487,0,2,,
+488,0,2,,
+489,0,2,,
+490,0,2,,
+491,0,2,,
+492,0,2,,
+493,0,2,,
+494,0,2,,
+495,0,2,,
+496,0,2,,
+497,0,2,,
+498,0,2,,
+499,0,2,,
+500,0,2,,
+501,0,2,,
+502,0,2,,
+503,0,2,,
+504,0,2,,
+505,0,2,,
+506,0,2,,
+507,0,2,,
+508,0,2,,
+509,0,2,,
+510,0,2,,
+511,0,2,,

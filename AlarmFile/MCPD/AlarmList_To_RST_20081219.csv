@@ -1,0 +1,393 @@
+AlarmCode,Unit,Type,Description,Type
+1,0,2,Emergency  Error,1
+2,0,2,Door Alarm,1
+3,0,2,Air Alarm,2
+4,0,2,Fan Alarm,2
+5,0,2,Fault of Lamp,2
+6,0,2,UPS Error,2
+7,0,2,Abnormal Tempter,2
+8,0,2,Alarm X Axis,2
+9,0,2,Alarm Y Axis,2
+10,0,2,Alarm Lifter Axis,2
+11,0,2,Mechatrolink Comm Write Error,2
+12,0,2,PCI2726 I/O Read Write Error,2
+13,0,2,Melsec TCP UNIT Read Write Error,2
+14,0,2,Mechatrolink Comm Error(SFC),2
+15,0,2,Mechatrolink Comm Error(REF NO),2
+16,0,2,Mechatrolink Comm Error(DATA CNT),2
+17,0,2,Mechatrolink Comm Error(Abnormal),2
+18,0,2,I/O No Support Error,2
+19,0,2,I/O Signal Tower No Support Error,2
+20,0,2,I/O Signal Tower Mismatch,2
+21,0,2,I/O Buzz No Support Error,2
+22,0,2,I/O Buzz Mismatch,2
+23,0,2,I/O SupportBar Support Error,2
+24,0,2,I/O SupportBar Mismatch,2
+25,0,2,I/O Clamp Support Error,2
+26,0,2,I/O Clamp Mismatch,2
+27,0,2,PlC Program Error,2
+28,0,2,Clamp Timeout,2
+29,0,2,Support Bar Move Timeout,2
+30,0,2,Stage Size Change Timeout,2
+31,0,2,Conveyance Shutter Timeout,2
+32,0,2,Area sensor change state Timeout,2
+33,0,2,Clamp Unit 1 Error,2
+34,0,2,Glass Alignment Error,2
+35,0,2,Lifter StagePosition Error,2
+36,0,2,Lifter axis rise Error,2
+37,0,2,Lifter axis descent Error,2
+38,0,2,Lifter rise confirmation sensor Error,2
+39,0,2,Lifter descent confirmation sensor Error,2
+40,0,2,MELSEC_READWRITE_ERROR,2
+41,0,2,PCI2710_READWRITE_ERROR,2
+42,0,2,Mechatrolink socket open Error,2
+43,0,2,Mechatronics link axis Error,2
+44,0,2,Mechatronics link axis plus limit Error,2
+45,0,2,Mechatronics link axis minus limit Error,2
+46,0,2,Mechatronics link axis positional alarm,2
+47,0,2,Mechatronics link axis offset Error,2
+48,0,2,Axis driver doing Error,2
+49,0,2,Axis driver opening Error,2
+50,0,2,The axis device steering wheel is illegal.,2
+51,0,2,Axis board re-opening Error,2
+52,0,2,Axis board operation Error,2
+53,0,2,Axis board Error,2
+54,0,2,Axis board parameter setting Error,2
+55,0,2,Axis board operation Error,2
+56,0,2,Axis board Error,2
+57,0,2,Axis board memory shortage,2
+58,0,2,Axis board and others axis stop waiting,2
+59,0,2,Axis board OPEN Error,2
+60,0,2,Stop position Error,2
+61,0,2,Pulse abnormality Error,2
+62,0,2,Limit Error,2
+63,0,2,Axis movement time-out,2
+64,0,2,Limit coordinates limitation,2
+65,0,2,Axis parameter Error,2
+66,0,2,Movement before starting point returns,2
+67,0,2,Position acquisition before starting point returns,2
+68,0,2,Axis type Error,2
+69,0,2,Axis array use Error,2
+70,0,2,Axis drive interlock detection,2
+71,0,2,Auto Focus F0 Invalid Paramter,2
+72,0,2,Auto Focus F0 No Detect Peak,2
+73,0,2,Auto Focus F1 Invalid Paramter,2
+74,0,2,Auto Focus F1 No Detect Peak,2
+75,0,2,Auto Alignment Too much label,2
+76,0,2,Auto Alignment No label,2
+77,0,2,Auto Alignment Logic Errror,2
+78,0,2,Auto Alignment No Figure ,2
+79,0,2,Auto Alighment(No Move) No Figure,2
+80,0,2,PS Image File Not Exisit,2
+81,0,2,PS Serach Error,2
+82,0,2,Transmittance Spot Search Error,2
+83,0,2,Image Convert Error,2
+84,0,2,Image Invalid Work Area,2
+85,0,2,Not Exist Need Axes For Image Function,2
+86,0,2,Aligment Mark image none,2
+87,0,2,There is no Aligment Mark reference file. ,2
+88,0,2,Error of image board none,2
+89,0,2,Image board opening Error,2
+90,0,2,The image board steering wheel is illegal. ,2
+91,0,2,Image board re-opening Error,2
+92,0,2,Image board operation Error,2
+93,0,2,Image board argument Error,2
+94,0,2,Image board memory shortage,2
+95,0,2,Image board DMA is being forwarded. ,2
+96,0,2,Image board DMA is stopping. ,2
+97,0,2,Image board NULL pointer Error,2
+98,0,2,Image board decoder Error,2
+99,0,2,Image board encoder Error,2
+100,0,2,Image board operation Error,2
+101,0,2,Image board operation Error,2
+102,0,2,Image board SDRAM is being forwarded. ,2
+103,0,2,Image board SDRAM is stopping. ,2
+104,0,2,Image board operation Error,2
+105,0,2,Image board OPEN Error,2
+106,0,2,CCDCOMM Open Error,2
+107,0,2,CCDCOMM writing time-out,2
+108,0,2,CCDCOMM reading time-out,2
+109,0,2,The CCDCOMM device is written when it is invalid. ,2
+110,0,2,CCD COMM sequence time-out,2
+111,0,2,CCD COMM uncertainty Error,2
+112,0,2,CCD COMM data length Error,2
+113,0,2,CCD COMM command Error,2
+114,0,2,CCD COMM CCD reception time-out,2
+115,0,2,CCD COMM parity Error,2
+116,0,2,CCD COMM overrunning Error,2
+117,0,2,CCD COMM Fleming Error,2
+118,0,2,PMT AD Invalid Handle Error,2
+119,0,2,PMT AD No Device Error,2
+120,0,2,PMT AD No Open Error,2
+121,0,2,PMT AD Aleady Open Error,2
+122,0,2,PMT AD No Supported Error,2
+123,0,2,PMT AD Now Sampling,2
+124,0,2,PMT AD Stop Sampling,2
+125,0,2,PMT AD Start Sampling,2
+126,0,2,PMT AD Sampling Timeout,2
+127,0,2,PMT AD Sampling Freq,2
+128,0,2,PMT AD Invalid Parameter,2
+129,0,2,PMT AD Illegal Parameter,2
+130,0,2,PMT AD Null Pointer,2
+131,0,2,PMT AD Get Data,2
+132,0,2,PMT AD Used DA,2
+133,0,2,PMT AD File Open,2
+134,0,2,PMT AD File Close,2
+135,0,2,PMT AD File Read,2
+136,0,2,PMT AD File Write,2
+137,0,2,PMT AD Invalid Data Format,2
+138,0,2,PMT AD Invalid Average Or Smoothing,2
+139,0,2,PMT AD Invalid Source Data,2
+140,0,2,PMT AD Allocate Memory Error,2
+141,0,2,PMT AD Not Load Dll,2
+142,0,2,PMT AD Error Call Dll,2
+143,0,2,PMT DA Invalid Handle,2
+144,0,2,PMT DA No Device Error,2
+145,0,2,PMT DA Not Open Error,2
+146,0,2,PMT DA Already Open Error,2
+147,0,2,PMT DA No Supported Error,2
+148,0,2,PMT DA Now Sampling Error,2
+149,0,2,PMT DA Stop Sampling Error,2
+150,0,2,PMT DA Start Sampling Error,2
+151,0,2,PMT DA Sampling Timeout Error,2
+152,0,2,PMT DA Invalid parameter,2
+153,0,2,PMT DA Illegal Parameter,2
+154,0,2,PMT DA Null Pointer,2
+155,0,2,PMT DA Set Data?Error,2
+156,0,2,PMT DA Used AD?Error,2
+157,0,2,PMT DA File Open,2
+158,0,2,PMT DA File Close,2
+159,0,2,PMT DA File Read,2
+160,0,2,PMT DA File Write,2
+161,0,2,PMT DA Invalid Data Format,2
+162,0,2,PMT DA Invalid Average or Smoothing,2
+163,0,2,PMT DA Invalid Source Data,2
+164,0,2,PMT DA Not Allocate Memory,2
+165,0,2,PMT DA Not Load Dll,2
+166,0,2,PMT DA Error Call Dll,2
+167,0,2,Mcpd RS232C Open Error,2
+168,0,2,Writing time-out,2
+169,0,2,Reading time-out,2
+170,0,2,The device is written when it is invalid.,2
+171,0,2,Sequence time-out,2
+172,0,2,Unknown Error,2
+173,0,2,Data length Error,2
+174,0,2,Unknown Error,2
+175,0,2,Unexpected ANS,2
+176,0,2,Unsupport command,2
+177,0,2,Revolver Open Error,2
+178,0,2,Writing time-out,2
+179,0,2,Reading time-out,2
+180,0,2,The device is written when it is invalid. ,2
+181,0,2,Sequence time-out,2
+182,0,2,Unknown Error,2
+183,0,2,Data length Error,2
+184,0,2,Unknown Error,2
+185,0,2,Power supply OFF,2
+186,0,2,Unknown Error,2
+187,0,2,Another command execution inside,2
+188,0,2,Error of unit none,2
+189,0,2,Error of pulse counter board none,2
+190,0,2,Pulse counter board opening Error,2
+191,0,2,The pulse counter board steering wheel is illegal. ,2
+192,0,2,Pulse counter board re-opening Error,2
+193,0,2,Pulse counter board data area Error,2
+194,0,2,Asynchronous I/O Error of pulse counter board,2
+195,0,2,Pulse counter board operation Error,2
+196,0,2,Pulse counter board parameter setting Error,2
+197,0,2,Pulse counter board event setting Error,2
+198,0,2,Pulse counter board memory shortage,2
+199,0,2,Pulse counter board timer resource acquisition Error,2
+200,0,2,Pulse counter board driver Error,2
+201,0,2,Pulse Counter Invalid Channel,2
+202,0,2,ADDABoard(LabJack Inner Error),2
+203,0,2,Laser displacement sensor RS232C command transmission Error,2
+204,0,2,Laser displacement sensor RS232C command Error,2
+205,0,2,Laser displacement sensor RS232C uncertainty Error,2
+206,0,2,Laser displacement sensor RS232C time-out generation,2
+207,0,2,Laser displacement sensor command Error,2
+208,0,2,Laser displacement sensor status Error,2
+209,0,2,Laser displacement sensor command Error,2
+210,0,2,Laser displacement sensor parameter Error,2
+211,0,2,Laser displacement sensor parameter length Error,2
+212,0,2,Laser displacement sensor time-out,2
+213,0,2,Laser displacement sensor uncertain command,2
+214,0,2,Laser displacement sensor command length Error,2
+215,0,2,Laser displacement sensor uncertain parameter Error,2
+216,0,2,DeviceManager Read Config Error,2
+217,0,2,DeviceManager Set Config Error,2
+218,0,2,Load Inner Library Error,2
+219,0,1,Common Calculation Error,6
+220,0,1,Reflection Measurement Calculation Error,6
+221,0,1,Color Measurement Calculation Error,6
+222,0,1,OD Measurement Calculation Error,6
+223,0,1,Thickness (PP) Measurement Calculation Error,6
+224,0,1,Thickness (PV) Measurement Calculation Error,6
+225,0,1,Thickness (PVW) Measurement Calculation Error,6
+226,0,1,Thickness (FFT) Measurement Calculation Error,6
+227,0,1,Thickness (Fitting) Measurement Calculation Error,6
+228,0,1,Thickness (Optimization) Measurement Calculation Error,6
+229,0,1,Absolute Reflection Measurement Calculation Error,6
+230,0,1,Material Making Error,6
+231,0,1,Glass Refractive Index Calculation Error,6
+232,0,1,BM Width Calculation Error,6
+233,0,1,Line Width Calculation Error,6
+234,0,1,BM Width Parameter Error,6
+235,0,1,Line Width Parameter Error,6
+236,0,1,Occurr Time Out during Link Test,6
+237,0,1,Occurr Error during Linking,6
+238,0,1,Occurr Error during Link Test,6
+239,0,1,Occure NG during Transfer Request signal On UnLoad Glass,6
+240,0,1,Occurr NG at T2 On UnLoad Glass,6
+241,0,1,Occurr TimeOut at T2 On UnLoad Glass,6
+242,0,1,Occurr NG at T4 On UnLoad Glass,6
+243,0,1,Occurr TimeOut at T4 On UnLoad Glass,6
+244,0,1,Occure TimeOut during UnLoad Glass,6
+245,0,1,Occure NG during UnLoad Glass,6
+246,0,1,Occurr TimeOut at T6 On UnLoad Glass,6
+247,0,1,Occurr NG at T6 On UnLoad Glass,6
+248,0,1,Occurr TimeOut at T3 On UnLoad Glass,6
+249,0,1,Occurr TimeOut at T3 On UnLoad Glass,6
+250,0,1,Occure NG during Transfer Request signal On Load Glass,6
+251,0,1,Occurr TimeOut at T2 On Load Glass,6
+252,0,1,Occurr NG at T2 On Load Glass,6
+253,0,1,Occurr TimeOut at T3 On Load Glass,6
+254,0,1,Occurr TimeOut at T3 On Load Glass,6
+255,0,1,Occurr TimeOut at T4 On Load Glass,6
+256,0,1,Occurr NG at T4 On Load Glass,6
+257,0,1,Occure TimeOut during Load Glass,6
+258,0,1,Occure NG during Load Glass,6
+259,0,1,Occurr TimeOut at T6 On Load Glass,6
+260,0,1,Occurr NG at T6 On Load Glass,6
+261,0,1,this alarm means unknow whether Glass is loaded or unloaded at last.,6
+262,0,1,Don't Save whether Glass is loaded or unloaded at last.,6
+263,0,1,"During load file occurr  Error, Have  Infomation for Recipe Modify",6
+264,0,1,"During Save file occurr  Error, Have  Infomation for Recipe Modify",6
+265,0,1,"During load file occurr  Error, have  Melsec Condition",6
+266,0,1,"During Save file occurr  Error, have  Melsec Condition",6
+267,0,1,"During load file occurr  Error, have  TimeOut Condition",6
+268,0,1,"During save file occurr  Error, have  TimeOut Condition",6
+269,0,1,Occurr Error during Recipe Modification,6
+270,0,1,Occure TimeOut at T1 on Recipe Modification,6
+271,0,1,Occure NG at T1 on Recipe Modification,6
+272,0,1,Occure TimeOut at T3 on Recipe Modification,6
+273,0,1,Occure NG at T3 on Recipe Modification,6
+274,0,1,Occure TimeOut at T2 on Recipe Exist,6
+275,0,1,Occure NG at T2 on Recipe Exist,6
+276,0,1,Occure Error during Recipe Exist,6
+277,0,1,Occurr TimeOut at T1 on Glass Erase,6
+278,0,1,Occurr NG at T1 on Glass Erase,6
+279,0,1,Occurr TimeOut at T3 on Glass Erase,6
+280,0,1,Occurr NG at T3 on Glass Erase,6
+281,0,1,Occurr Time Out during Transfer Reset,6
+282,0,1,Judgement Error,6
+283,0,2,State management initialization Error,2
+284,0,2,State management parameter Error,2
+285,0,2,State management beginning Error,2
+286,0,2,State management end Error,2
+287,0,2,State management setting Error,2
+288,0,2,State management exception Error,2
+289,0,2,Device constant initialization Error,2
+290,0,2,Device constant reading Error,2
+291,0,2,Device constant writing Error,2
+292,0,2,Device constant exception Error,2
+293,0,2,Recipe initialization Error,2
+294,0,2,Recipe reading Error,2
+295,0,2,Recipe writing Error,2
+296,0,2,Recipe exception Error,2
+297,0,2,Device setting Error,2
+298,0,2,Device initialization Error,2
+299,0,2,Starting point detection Error,2
+300,0,2,MCPD initialization Error,2
+301,0,2,PMT initialization Error,2
+302,0,2,Axis initialization Error,2
+303,0,2,Lamp initialization Error,2
+304,0,2,CCD initialization Error,2
+305,0,2,Stage size initialization Error,2
+306,0,2,Stage size acquisition Error,2
+307,0,2,Stage size movement Error,2
+308,0,2,Stage size exception Error,2
+309,0,2,Stage correction initialization Error,2
+310,0,2,Alignment mark correction Error,2
+311,0,2,Error when measurement is initialized,2
+312,0,2,Shift Error when measurement is canceled,2
+313,0,2,Measurement discontinuance shift Error,2
+314,0,2,Shift Error when measurement makes an Error,2
+315,0,2,Making Error at measurement result,2
+316,0,2,Measurement result reading Error,2
+317,0,2,Measurement result writing Error,2
+318,0,2,Measurement result exception Error,2
+319,0,2,Dark measurement exception Error,2
+320,0,2,Reference measurement exception Error,2
+321,0,2,Sample measurement exception Error,2
+322,0,2,Measurement end work exception Error,2
+323,0,2,Measurement result file preservation Error,2
+324,0,2,Movement refusal Error,2
+325,0,2,Shift Error when measurement makes an Error,2
+326,0,2,Lens setting Error,2
+327,0,2,AutoFocus Execution Error,2
+328,0,2,AutoFocus Parameter setting Error,2
+329,0,2,AutoFocus Exception Error,2
+330,0,2,AutoLowFocus  Execution Error,2
+331,0,2,AutoLowFocus  Parameter setting Error,2
+332,0,2,AutoLowFocus  Exception Error,2
+333,0,2,Pixel positional match Execution Error,2
+334,0,2,Pixel positional match Parameter setting Error,2
+335,0,2,Pixel positional match Exception Error,2
+336,0,2,Trans axis positional match Execution Error,2
+337,0,2,Trans axis positional match  Parameter setting Error,2
+338,0,2,Trans axis positional match  Exception Error,2
+339,0,2,Pixel positional match Execution Error,2
+340,0,2,Pixel positional match Parameter setting Error,2
+341,0,2,Pixel positional match Exception Error,2
+342,0,2,Trans spot adjustment Execution Error,2
+343,0,2,Trans spot adjustment Parameter setting Error,2
+344,0,2,Trans spot adjustment Exception Error,2
+345,0,2,Recieve spot adjustment Execution Error,2
+346,0,2,Recieve spot adjustment Parameter setting Error,2
+347,0,2,Recieve spot adjustment Exception Error,2
+348,0,2,Soft Joy initialization Error,2
+349,0,2,Soft Joy parameter Error,2
+350,0,2,Soft Joy exception Error,2
+351,0,2,Stage view initialization Error,2
+352,0,2,Stage view parameter Error,2
+353,0,2,Stage view exception Error,2
+354,0,2,Image view initialization Error,2
+355,0,2,Image view parameter Error,2
+356,0,2,Image view exception Error,2
+357,0,2,Setting window initialization Error,2
+358,0,2,Setting window parameter Error,2
+359,0,2,Setting window exception Error,2
+360,0,2,Matrix coordinates initialization Error,2
+361,0,2,Matrix coordinates parameter Error,2
+362,0,2,Matrix coordinates exception Error,2
+363,0,2,Automation initialization Error,2
+364,0,2,Automation parameter Error,2
+365,0,2,Automation exception Error,2
+366,0,2,Automation connection Error,2
+367,0,2,Error when automation is being measured,2
+368,0,2,Error when stopping at one o'clock of Automation,2
+369,0,2,Error when automation measurement is discontinued,2
+370,0,2,Automation recipe unselection Error,2
+371,0,2,Automation measurement beginning Error,2
+372,0,2,Automation measurement exception Error,2
+373,0,2,Online group existence Error,2
+374,0,2,Error of online recipe none,2
+375,0,2,Error of online recipe name none,2
+376,0,2,Recipe existence Error,2
+377,0,2,Recipe selection Error,2
+378,0,2,There is a substrate and it makes an Error. ,2
+379,0,2,Stage size change Error,2
+380,0,2,Automation exception Error,2
+381,0,2,Stripe measurement connection Error,2
+382,0,2,Stripe measurement support Error,2
+383,0,2,Stripe measurement initialization Error,2
+384,0,2,File transfer initialization Error,2
+385,0,2,File transfer parameter Error,2
+386,0,2,File transfer support Error,2
+387,0,2,File transfer exception Error,2
+388,0,2,Error when measurement result is made,2
+389,0,2,Error when measurement result file is made,2
+390,0,2,Self adjustment Error of MCPD exposure time,2
+391,0,1,HSMS Disconnected Warning,6
+392,0,1,Incorrect Glass Data.,6

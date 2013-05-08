@@ -1,0 +1,108 @@
+1,0,2,EMO 1,2,EMO訊號 1
+2,0,2,DC Power alarm ,2,DC 電源異常訊號
+3,0,2,Servo Break Dc Power alarm,2,伺服煞車DC 電源異常訊號
+8,0,2,Robort In EQ Sensor Error(1),2,ROBOT入機台檢知異常 (1)
+9,0,2,Robort In EQ Sensor Error(2),2,ROBOT入機台檢知異常 (2)
+10,0,2,Robort In Check Error,2,ROBOT 進入通知異常
+12,0,2,Back Light Box/Stage ,2,背燈箱/Stage防撞檢知
+24,0,2,area sensor error,2,人員安全光閘
+26,0,2,Robot EMO Error,2,Robot EMO 異常
+28,0,2,Glass Is not in Position,3,玻璃未在定位
+30,0,2,Suck Vacuum (1) Error,2,吸真空(1)異常
+31,0,2,Suck Vacuum (2) Error,2,吸真空(2)異常
+38,0,2,a side door Open,2,側維修門開啟
+39,0,2,Back door Open,2,後維修門開啟
+40,0,2,left EMO in a flat-top building Error,2,平台左邊 EMO 訊號
+41,0,2,right EMO in a flat-top building Error,2,平台右邊 EMO 訊號
+42,0,2,Glass amendment Back (1) Error,2,汽缸校正後位(1)
+43,0,2,Glass amendment Back (2) Error,2,汽缸校正後位(2)
+44,0,2,Glass amendment Back (3) Error,2,汽缸校正後位(3)
+45,0,2,Glass amendment Back (4) Error,2,汽缸校正後位(4)
+46,0,2,Glass amendment Back (5) Error,2,汽缸校正後位(5)
+47,0,2,Glass amendment Back (6) Error,2,汽缸校正後位(6)
+48,0,2,Glass amendment Back (7) Error,2,汽缸校正後位(7)
+49,0,2,Glass amendment Back (8) Error,2,汽缸校正後位(8)
+50,0,2,Top Light Sensor (1) Error,2,上燈點亮檢知1
+51,0,2,Top Light Sensor (2) Error,2,上燈點亮檢知2
+52,0,2,Top Light Sensor (3) Error,2,上燈點亮檢知3
+53,0,2,Top Light Sensor (4) Error,2,上燈點亮檢知4
+54,0,2,Top Light Sensor (5) Error,2,上燈點亮檢知5
+55,0,2,Top Light Sensor (6) Error,2,上燈點亮檢知6
+56,0,2,Top Light Sensor (7) Error,2,上燈點亮檢知7
+57,0,2,Top Light Sensor (8) Error,2,上燈點亮檢知8
+62,0,2,Glass Chip cylinder Open (1) Error,2,玻璃夾具開位(1)
+63,0,2,Glass Chip cylinder Close (1) Error,2,玻璃夾具夾位(1)
+64,0,2,Glass Chip cylinder Open (2) Error,2,玻璃夾具開位(2)
+65,0,2,Glass Chip cylinder Close (2) Error,2,玻璃夾具夾位(2)
+66,0,2,Glass Chip cylinder Open (3) Error,2,玻璃夾具開位(3)
+67,0,2,Glass Chip cylinder Close (3) Error,2,玻璃夾具夾位(3)
+68,0,2,Glass Chip cylinder Open (4) Error,2,玻璃夾具開位(4)
+69,0,2,Glass Chip cylinder Close (4) Error,2,玻璃夾具夾位(4)
+70,0,2,Glass Chip cylinder Open (5) Error,2,玻璃夾具開位(5)
+71,0,2,Glass Chip cylinder Close (5) Error,2,玻璃夾具夾位(5)
+72,0,2,Glass Chip cylinder Open (6) Error,2,玻璃夾具開位(6)
+73,0,2,Glass Chip cylinder Close (6) Error,2,玻璃夾具夾位(6)
+74,0,2,Glass Chip cylinder Open (7) Error,2,玻璃夾具開位(7)
+75,0,2,Glass Chip cylinder Close (7) Error,2,玻璃夾具夾位(7)
+76,0,2,Glass Chip cylinder Open (8) Error,2,玻璃夾具開位(8)
+77,0,2,Glass Chip cylinder Close (8) Error,2,玻璃夾具夾位(8)
+78,0,2,Glass Chip cylinder Open (9) Error,2,玻璃夾具開位(9)
+79,0,2,Glass Chip cylinder Close (9) Error,2,玻璃夾具夾位(9)
+80,0,2,Glass Chip cylinder Open (10) Error,2,玻璃夾具開位(10)
+81,0,2,Glass Chip cylinder Close (10) Error,2,玻璃夾具夾位(10)
+82,0,2,Glass Chip cylinder Open (11) Error,2,玻璃夾具開位(11)
+83,0,2,Glass Chip cylinder Close (11) Error,2,玻璃夾具夾位(11)
+84,0,2,Glass Chip cylinder Open (12) Error,2,玻璃夾具開位(12)
+85,0,2,Glass Chip cylinder Close (12) Error,2,玻璃夾具夾位(12)
+86,0,2,Glass Chip cylinder Open (13) Error,2,玻璃夾具開位(13)
+87,0,2,Glass Chip cylinder Close (13) Error,2,玻璃夾具夾位(13)
+88,0,2,Glass Chip cylinder Open (14) Error,2,玻璃夾具開位(14)
+89,0,2,Glass Chip cylinder Close (14) Error,2,玻璃夾具夾位(14)
+90,0,2,Glass Chip cylinder Open (15) Error,2,玻璃夾具開位(15)
+91,0,2,Glass Chip cylinder Close (15) Error,2,玻璃夾具夾位(15)
+92,0,2,Glass Chip cylinder Open (16) Error,2,玻璃夾具開位(16)
+93,0,2,Glass Chip cylinder Close (16) Error,2,玻璃夾具夾位(16)
+94,0,2,Glass Chip cylinder Open (17) Error,2,玻璃夾具開位(17)
+95,0,2,Glass Chip cylinder Close (17) Error,2,玻璃夾具夾位(17)
+96,0,2,Glass Chip cylinder Open (18) Error,2,玻璃夾具開位(18)
+97,0,2,Glass Chip cylinder Close (18) Error,2,玻璃夾具夾位(18)
+99,0,2,Stage Up  protect Sensor On,2,Stage上升保護光電動作
+100,0,2,Stage Down  protect Limit Switch On,2,Stage下降保護 LS動作
+101,0,2,Stage inside frame level Confirm Error,2,Stage內框水平確認異常
+102,0,2,Stage inside frame Servo Error,2,Stage內框伺服異常
+103,0,2,Stage outside frame Servo Error,2,Stage外框伺服異常
+104,0,2,Stage Up and Down Servo Error,2,Stage昇降伺服異常
+105,0,2,Stage Move Servo Error,2,Stage走行伺服異常
+106,0,2,Back Light Box Move Servo Error,2,背燈箱移行伺服異常
+107,0,2,Up Light Box move Servo Error,2,上燈箱移行伺服異常
+465,0,2,Load Glass T2 Time Out,2,與上游Interface(Load Glass)發生T2 TimeOut
+466,0,2,Load Glass T3 Time Out,2,與上游Interface(Load Glass)發生T3 TimeOut
+467,0,2,Load Glass T4 Time Out,2,與上游Interface(Load Glass)發生T4 TimeOut
+468,0,2,Load Glass T6 Time Out,2,與上游Interface(Load Glass)發生T6 TimeOut
+472,0,2,UnLoad Glass T2 Time Out,2,與上游Interface(Unload Glass)發生T2 TimeOut
+473,0,2,UnLoad Glass T3 Time Out,2,與上游Interface(Unload Glass)發生T3 TimeOut
+474,0,2,UnLoad Glass T4 Time Out,2,與上游Interface(Unload Glass)發生T4 TimeOut
+475,0,2,UnLoad Glass T6 Time Out,2,與上游Interface(Unload Glass)發生T6 TimeOut
+479,0,2,Exchange Glass T2 Time Out,2,與上游Interface(Exchange Glass)發生T2 TimeOut
+480,0,2,Exchange Glass T3 Time Out,2,與上游Interface(Exchange Glass)發生T3 TimeOut
+481,0,2,Exchange Glass T4 Time Out,2,與上游Interface(Exchange Glass)發生T4 TimeOut
+482,0,2,Exchange Glass T6 Time Out,2,與上游Interface(Exchange Glass)發生T6 TimeOut
+486,0,2,Recipe Modify T1 Time Out,2,與上游Interface(Recipe Modify Report)發生T1 TimeOut
+487,0,2,Recipe Modify T3 Time Out,2,與上游Interface(Recipe Modify Report)發生T3 TimeOut
+490,0,2,Recipe Exist Check T2 Time Out,2,與上游Interface(Recipe Exist Check)發生T2 TimeOut
+493,0,2,Glass Erase Report T1 Time Out,2,與上游Interface(Glass Erase Report)發生T1 TimeOut
+494,0,2,Glass Erase Report T3 Time Out,2,與上游Interface(Glass Erase Report)發生T3 TimeOut
+497,0,2,Transfer Reset T2 Time Out,2,與上游Interface(Transfer Reset)發生T2 TimeOut
+500,0,2,Link Test T2 Time Out,2,與上游Interface(Heartbeat Check Failure)發生T2 TimeOut
+108,0,2,Inner Axis MEL Error,0,內框後極限異常
+109,0,2,Inner Axis PEL Error,0,內框前極限異常
+110,0,2,Outer Axis MEL Error,0,外框後極限異常
+111,0,2,Outer Axis PEL Error,0,外框前極限異常
+112,0,2,Up_Down Axis MEL Error,0,升降後極限異常
+113,0,2,Up_Down Axis PEL Error,0,升降前極限異常
+114,0,2,Stage Axis MEL Error,0,前後移行後極限異常
+115,0,2,Stage Axis PEL Error,0,前後移行前極限異常
+116,0,2,BackLight Axis MEL Error,0,背燈箱後極限異常
+117,0,2,BackLight Axis PEL Error,0,背燈箱前極限異常
+118,0,2,Upper Light Axis MEL Error,0,上燈箱後極限異常
+119,0,2,Upper Light Axis PEL Error,0,上燈箱極限異常
